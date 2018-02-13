@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+</head>
+<body>
+
+	<table>
+		<tr>
+			<td><label>Employee Id</label></td>
+			<td><input type="text" id="empid" /></td>
+		</tr>
+		<tr>
+			<td><label>Employee Name</label></td>
+			<td><input type="text" id="name" /></td>
+		</tr>
+		<tr>
+			<td><label>Employee company</label></td>
+			<td ><input type="text" id="company" /></td>
+		</tr>
+	</table>
+
+<script>
+	$(function(){
+		
+		
+		$("#empid").blur(function(){
+			var url="requestProcessorXML.jsp";
+			$.ajax({	
+				type:"POST",
+				url:url,
+				data:{
+					 empid:$("#empid").val()
+				},
+				success:function(response){
+					var x = response.getElementsByTagName("data");
+					console.log(response);
+					$("#name").val(x[0].childNodes[0].textContent);
+					$("#company").val(x[0].childNodes[1].textContent);
+
+				}
+			})
+			
+			
+		});
+		
+		
+		
+	});
+	
+	
+	
+	
+	</script>
+
+
+</body>
+</html>

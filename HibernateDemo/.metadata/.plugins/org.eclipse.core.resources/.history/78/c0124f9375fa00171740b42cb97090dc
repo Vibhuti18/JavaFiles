@@ -1,0 +1,43 @@
+package com.psl.controller;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.mockito.Mockito;
+
+import junit.framework.TestCase;
+import static org.mockito.Mockito.*;
+
+
+public class TestAddLocation extends Mockito {
+	
+	AddLocationController addLocationController;
+	
+
+	protected void setUp() throws Exception {
+		
+		addLocationController= new AddLocationController();
+	}
+
+	protected void tearDown() throws Exception {
+	
+		addLocationController=null;
+	}
+
+	public void testDoPostHttpServletRequestHttpServletResponse() throws Exception {
+		HttpServletRequest request =mock(HttpServletRequest.class);       
+        HttpServletResponse response = mock(HttpServletResponse.class);    
+
+        when(request.getParameter("locationName")).thenReturn("Goa");
+       // when(request.getParameter("password")).thenReturn("secret");
+
+      
+
+        addLocationController.doPost(request, response);
+
+        verify(request, atLeast(1)).getParameter("locationName"); // only if you want to verify username was called...
+        writer.flush(); // it may not have been flushed yet...
+        assertTrue(stringWriter.toString().contains("My expected string"));
+	}
+
+}

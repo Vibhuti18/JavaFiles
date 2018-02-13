@@ -1,0 +1,11 @@
+2018-01-11 10:38:28,312 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:Demo:0.0.1-SNAPSHOT @ C:\JAVA\ClassDemo\Demo\pom.xml.
+2018-01-11 10:38:32,639 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Demo/src/main/java
+2018-01-11 10:38:32,641 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Demo/src/main/resources
+2018-01-11 10:38:32,642 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Demo/src/test/java
+2018-01-11 10:38:32,642 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Demo/src/test/resources
+2018-01-11 10:38:33,014 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:Demo:0.0.1-SNAPSHOT @ C:\JAVA\ClassDemo\Demo\pom.xml.
+2018-01-11 10:38:41,974 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:Demo:0.0.1-SNAPSHOT @ C:\JAVA\ClassDemo\Demo\pom.xml.
+2018-01-11 10:38:42,087 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-11 10:38:42,113 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-11 10:38:42,122 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-11 10:38:42,138 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

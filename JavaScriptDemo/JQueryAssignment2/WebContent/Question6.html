@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   
+
+    <script>
+    
+    $(function(){
+               $("#para3").click(function(){
+            	   var myPara = $("<p>This is a new para</p>");
+           		$("#para3").append(myPara);
+               })
+    })
+</script>
+
+<p id="para3">
+this is 1st paragraph!
+</p>
+</body>
+</html>

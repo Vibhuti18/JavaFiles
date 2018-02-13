@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+   
+</head>
+<body>
+    <!-- <audio src="C:\Users\Public\Music\Sample Music\Kalimba.mp3" controls autoplay loop>Not supported by browser </audio> -->
+
+<video controls>
+<source src="c:\JAVA\JavaScriptDemo\JAVAScriptAPI\podcast_teaser.mp4" type="video/mp4">
+</video>
+<button id="b1">FullScreen</button>
+
+<script>
+        
+                $(function(){
+        
+        $("button").click(function(){
+        
+            //document.getElementsByTagName('video')[0].webkitEnterFullscreen();
+           
+            if ($("video")[0].requestFullscreen) {
+                $("video")[0].requestFullscreen();
+            }
+            else if ($("video")[0].msRequestFullscreen) {
+                $("video")[0].msRequestFullscreen();
+            }
+            else  if ($("video")[0].mozRequestFullScreen) {
+                $("video")[0].mozRequestFullScreen();
+            }
+            else if ($("video")[0].webkitRequestFullScreen) {
+                $("video")[0].webkitRequestFullScreen();
+            }
+        })
+            })
+        
+                </script>
+
+</body>
+</html>

@@ -1,0 +1,674 @@
+2018-01-17 09:06:42,424 [Worker-590] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:06:51,268 [Worker-590] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/src
+2018-01-17 09:06:51,269 [Worker-590] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /RoomBookFinalWar/src overlaps with sources folder /RoomBookFinalWar/src
+2018-01-17 09:06:51,616 [Worker-590] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/test
+2018-01-17 09:06:56,455 [Worker-590] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-01-17 09:06:57,059 [Worker-602] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:06:57,522 [Worker-602] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:06:57,566 [Worker-602] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:06:57,728 [Worker-602] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:06:57,992 [Worker-602] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:06:59,185 [Worker-590] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:06:59,953 [Worker-590] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/src
+2018-01-17 09:06:59,954 [Worker-590] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /RoomBookFinalWar/src overlaps with sources folder /RoomBookFinalWar/src
+2018-01-17 09:06:59,954 [Worker-590] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/test
+2018-01-17 09:07:07,033 [Worker-590] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:07:07,249 [Worker-590] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for RoomBookFinalWar
+2018-01-17 09:07:07,364 [Worker-590] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 10 sec
+2018-01-17 09:07:15,665 [Worker-589] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:07:15,683 [Worker-589] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:07:15,718 [Worker-589] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:07:15,723 [Worker-589] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:08:30,256 [Worker-592] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:08:30,418 [Worker-592] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:08:30,425 [Worker-592] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 09:08:30,435 [Worker-592] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:08:30,441 [Worker-592] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:08:30,441 [Worker-592] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of RoomBookFinalWar
+2018-01-17 09:08:30,442 [Worker-592] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for RoomBookFinalWar
+2018-01-17 09:08:30,566 [Worker-592] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:08:33,157 [Worker-596] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:08:33,276 [Worker-596] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:08:33,281 [Worker-596] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 09:08:33,283 [Worker-596] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:08:33,287 [Worker-596] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:08:33,288 [Worker-596] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of RoomBookFinalWar
+2018-01-17 09:08:33,288 [Worker-596] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for RoomBookFinalWar
+2018-01-17 09:08:33,291 [Worker-596] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:08:53,613 [Worker-596] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:08:54,671 [Worker-601] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.5.6/slf4j-log4j12-1.5.6.pom
+2018-01-17 09:08:55,724 [Worker-601] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+2018-01-17 09:08:56,809 [Worker-601] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/hibernate-annotations/3.5.6-Final/hibernate-annotations-3.5.6-Final.pom
+2018-01-17 09:08:57,829 [Worker-601] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.pom
+2018-01-17 09:08:57,973 [Worker-596] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:08:57,982 [Worker-596] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 09:08:57,984 [Worker-596] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:08:58,004 [Worker-596] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:08:58,004 [Worker-596] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of RoomBookFinalWar
+2018-01-17 09:08:58,004 [Worker-596] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for RoomBookFinalWar
+2018-01-17 09:08:58,009 [Worker-596] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:08:59,382 [Worker-596] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:08:59,397 [Worker-596] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 09:08:59,398 [Worker-596] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:08:59,409 [Worker-596] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:09:00,984 [Worker-595] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-01-17 09:09:02,299 [Worker-595] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar
+2018-01-17 09:09:03,312 [Worker-595] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.jar
+2018-01-17 09:09:03,323 [Worker-595] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:09:04,359 [Worker-595] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.5.6/slf4j-log4j12-1.5.6.pom
+2018-01-17 09:09:05,385 [Worker-595] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+2018-01-17 09:09:06,394 [Worker-595] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/hibernate-annotations/3.5.6-Final/hibernate-annotations-3.5.6-Final.pom
+2018-01-17 09:09:07,416 [Worker-595] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.pom
+2018-01-17 09:09:08,528 [Worker-595] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar
+2018-01-17 09:09:08,658 [Worker-595] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/src
+2018-01-17 09:09:08,659 [Worker-595] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /RoomBookFinalWar/src overlaps with sources folder /RoomBookFinalWar/src
+2018-01-17 09:09:08,661 [Worker-595] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/test
+2018-01-17 09:09:09,493 [Worker-595] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:09:09,648 [Worker-595] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for RoomBookFinalWar
+2018-01-17 09:09:09,661 [Worker-595] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 8 sec
+2018-01-17 09:09:12,145 [Worker-613] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:09:12,153 [Worker-613] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:09:12,192 [Worker-613] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:09:12,197 [Worker-613] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:09:55,417 [Worker-608] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-01-17 09:09:56,702 [Worker-608] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar
+2018-01-17 09:09:57,724 [Worker-608] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.jar
+2018-01-17 09:09:57,739 [Worker-608] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:09:58,762 [Worker-608] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.5.6/slf4j-log4j12-1.5.6.pom
+2018-01-17 09:09:59,775 [Worker-608] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+2018-01-17 09:10:00,796 [Worker-608] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/hibernate-annotations/3.5.6-Final/hibernate-annotations-3.5.6-Final.pom
+2018-01-17 09:10:01,814 [Worker-608] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.pom
+2018-01-17 09:10:02,960 [Worker-608] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar
+2018-01-17 09:10:03,048 [Worker-608] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/src
+2018-01-17 09:10:03,049 [Worker-608] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /RoomBookFinalWar/src overlaps with sources folder /RoomBookFinalWar/src
+2018-01-17 09:10:03,050 [Worker-608] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/test
+2018-01-17 09:10:03,655 [Worker-608] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:10:03,767 [Worker-608] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for RoomBookFinalWar
+2018-01-17 09:10:03,776 [Worker-608] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 8 sec
+2018-01-17 09:10:06,697 [Worker-611] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:10:06,707 [Worker-611] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:10:06,749 [Worker-611] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:10:06,754 [Worker-611] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:11:21,578 [Worker-615] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 09:11:21,579 [Worker-615] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2018-01-17 09:11:26,202 [Worker-608] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:11:26,215 [Worker-608] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:11:26,262 [Worker-608] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:11:26,270 [Worker-608] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:15:17,876 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar
+2018-01-17 09:15:18,661 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.jar
+2018-01-17 09:15:18,965 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.jar
+2018-01-17 09:15:19,237 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.3/maven-site-plugin-3.3.jar
+2018-01-17 09:15:19,339 [Worker-617] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:15:19,519 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.5.6/slf4j-log4j12-1.5.6.pom
+2018-01-17 09:15:19,765 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.5.6/slf4j-log4j12-1.5.6.pom
+2018-01-17 09:15:19,930 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/log4j/log4j/1.2.14/log4j-1.2.14.pom
+2018-01-17 09:15:20,127 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/log4j/log4j/1.2.14/log4j-1.2.14.pom
+2018-01-17 09:15:20,305 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+2018-01-17 09:15:20,511 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+2018-01-17 09:15:20,653 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/junit/junit/4.10/junit-4.10.pom
+2018-01-17 09:15:20,849 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/junit/junit/4.10/junit-4.10.pom
+2018-01-17 09:15:20,992 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+2018-01-17 09:15:21,183 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+2018-01-17 09:15:21,316 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+2018-01-17 09:15:21,541 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+2018-01-17 09:15:21,752 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hibernate/hibernate-annotations/3.5.6-Final/hibernate-annotations-3.5.6-Final.pom
+2018-01-17 09:15:21,987 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/hibernate-annotations/3.5.6-Final/hibernate-annotations-3.5.6-Final.pom
+2018-01-17 09:15:22,116 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hibernate/hibernate-parent/3.5.6-Final/hibernate-parent-3.5.6-Final.pom
+2018-01-17 09:15:22,328 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/hibernate-parent/3.5.6-Final/hibernate-parent-3.5.6-Final.pom
+2018-01-17 09:15:22,496 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/3.5.6-Final/hibernate-core-3.5.6-Final.pom
+2018-01-17 09:15:22,685 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/3.5.6-Final/hibernate-core-3.5.6-Final.pom
+2018-01-17 09:15:22,826 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/antlr/antlr/2.7.6/antlr-2.7.6.pom
+2018-01-17 09:15:23,101 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/antlr/antlr/2.7.6/antlr-2.7.6.pom
+2018-01-17 09:15:23,264 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.1/commons-collections-3.1.pom
+2018-01-17 09:15:23,461 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.1/commons-collections-3.1.pom
+2018-01-17 09:15:23,659 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/transaction/jta/1.1/jta-1.1.pom
+2018-01-17 09:15:23,877 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/transaction/jta/1.1/jta-1.1.pom
+2018-01-17 09:15:23,999 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8.pom
+2018-01-17 09:15:24,205 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8.pom
+2018-01-17 09:15:24,338 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.5.8/slf4j-parent-1.5.8.pom
+2018-01-17 09:15:24,536 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.5.8/slf4j-parent-1.5.8.pom
+2018-01-17 09:15:24,693 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hibernate/hibernate-commons-annotations/3.2.0.Final/hibernate-commons-annotations-3.2.0.Final.pom
+2018-01-17 09:15:24,890 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/hibernate-commons-annotations/3.2.0.Final/hibernate-commons-annotations-3.2.0.Final.pom
+2018-01-17 09:15:24,999 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final.pom
+2018-01-17 09:15:25,208 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final.pom
+2018-01-17 09:15:25,336 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.pom
+2018-01-17 09:15:25,545 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.pom
+2018-01-17 09:15:25,691 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/net/java/jvnet-parent/3/jvnet-parent-3.pom
+2018-01-17 09:15:25,914 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/net/java/jvnet-parent/3/jvnet-parent-3.pom
+2018-01-17 09:15:26,606 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar
+2018-01-17 09:15:26,872 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.5.6/slf4j-api-1.5.6.jar
+2018-01-17 09:15:27,024 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.5.6/slf4j-log4j12-1.5.6.jar
+2018-01-17 09:15:27,263 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.5.6/slf4j-log4j12-1.5.6.jar
+2018-01-17 09:15:27,368 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/log4j/log4j/1.2.14/log4j-1.2.14.jar
+2018-01-17 09:15:27,770 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/log4j/log4j/1.2.14/log4j-1.2.14.jar
+2018-01-17 09:15:27,928 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
+2018-01-17 09:15:28,121 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
+2018-01-17 09:15:28,213 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/junit/junit/4.10/junit-4.10.jar
+2018-01-17 09:15:28,426 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/junit/junit/4.10/junit-4.10.jar
+2018-01-17 09:15:28,524 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+2018-01-17 09:15:28,741 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+2018-01-17 09:15:28,853 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hibernate/hibernate-annotations/3.5.6-Final/hibernate-annotations-3.5.6-Final.jar
+2018-01-17 09:15:29,087 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/hibernate-annotations/3.5.6-Final/hibernate-annotations-3.5.6-Final.jar
+2018-01-17 09:15:29,187 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/3.5.6-Final/hibernate-core-3.5.6-Final.jar
+2018-01-17 09:15:29,506 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/3.5.6-Final/hibernate-core-3.5.6-Final.jar
+2018-01-17 09:15:29,630 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/antlr/antlr/2.7.6/antlr-2.7.6.jar
+2018-01-17 09:15:33,097 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/antlr/antlr/2.7.6/antlr-2.7.6.jar
+2018-01-17 09:15:33,252 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.1/commons-collections-3.1.jar
+2018-01-17 09:15:33,598 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.1/commons-collections-3.1.jar
+2018-01-17 09:15:33,736 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/transaction/jta/1.1/jta-1.1.jar
+2018-01-17 09:15:34,014 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/transaction/jta/1.1/jta-1.1.jar
+2018-01-17 09:15:34,118 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hibernate/hibernate-commons-annotations/3.2.0.Final/hibernate-commons-annotations-3.2.0.Final.jar
+2018-01-17 09:15:34,402 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/hibernate-commons-annotations/3.2.0.Final/hibernate-commons-annotations-3.2.0.Final.jar
+2018-01-17 09:15:34,485 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final.jar
+2018-01-17 09:15:34,687 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final.jar
+2018-01-17 09:15:34,778 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.jar
+2018-01-17 09:15:34,968 [Worker-617] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.jar
+2018-01-17 09:15:38,227 [Worker-617] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:15:38,276 [Worker-617] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:15:38,405 [Worker-617] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:15:38,442 [Worker-617] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:16:33,861 [Worker-592] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 09:16:33,861 [Worker-592] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s "C:\JAVA Soft\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" clean
+2018-01-17 09:16:36,465 [Worker-620] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:16:36,478 [Worker-620] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:16:36,513 [Worker-620] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:16:36,519 [Worker-620] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:16:46,936 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-01-17 09:16:54,476 [Worker-619] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 09:16:54,476 [Worker-619] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s "C:\JAVA Soft\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" install
+2018-01-17 09:17:36,448 [Worker-622] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:17:36,602 [Worker-622] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 09:17:36,603 [Worker-622] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:17:36,632 [Worker-622] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:17:48,157 [Worker-634] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-01-17 09:17:48,273 [Worker-634] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:17:48,789 [Worker-634] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/src
+2018-01-17 09:17:48,790 [Worker-634] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /RoomBookFinalWar/src overlaps with sources folder /RoomBookFinalWar/src
+2018-01-17 09:17:48,791 [Worker-634] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/test
+2018-01-17 09:17:49,500 [Worker-634] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:17:49,867 [Worker-634] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for RoomBookFinalWar
+2018-01-17 09:17:49,877 [Worker-634] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-01-17 09:17:52,407 [Worker-627] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:17:52,417 [Worker-627] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:17:52,451 [Worker-627] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:17:52,456 [Worker-627] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:18:03,860 [Worker-624] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 09:18:03,860 [Worker-624] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s "C:\JAVA Soft\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" clean
+2018-01-17 09:18:06,467 [Worker-621] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:18:06,484 [Worker-621] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:18:06,536 [Worker-621] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:18:06,541 [Worker-621] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:18:09,672 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-01-17 09:18:18,665 [Worker-624] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 09:18:18,666 [Worker-624] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s "C:\JAVA Soft\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" clean install
+2018-01-17 09:19:17,390 [Worker-627] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:19:17,463 [Worker-627] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 09:19:17,466 [Worker-627] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:19:17,611 [Worker-627] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:19:22,447 [Worker-651] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 09:19:22,448 [Worker-651] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s "C:\JAVA Soft\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" clean
+2018-01-17 09:19:24,881 [Worker-628] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:19:24,947 [Worker-628] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:19:25,001 [Worker-628] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:19:25,005 [Worker-628] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:19:26,866 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-01-17 09:19:33,931 [Worker-622] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 09:19:33,932 [Worker-622] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s "C:\JAVA Soft\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" clean install
+2018-01-17 09:20:11,030 [Worker-645] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:20:11,037 [Worker-645] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 09:20:11,038 [Worker-645] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:20:11,043 [Worker-645] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:20:14,867 [Worker-626] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 09:20:14,867 [Worker-626] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s "C:\JAVA Soft\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" clean
+2018-01-17 09:20:17,421 [Worker-632] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:20:17,439 [Worker-632] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:20:17,502 [Worker-632] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:20:17,511 [Worker-632] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:20:21,960 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-01-17 09:20:29,240 [Worker-622] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 09:20:29,241 [Worker-622] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s "C:\JAVA Soft\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" install
+2018-01-17 09:26:21,801 [Worker-618] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:26:22,832 [Worker-618] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/hibernate/hibernate3/3.2.3.GA/hibernate3-3.2.3.GA.pom
+2018-01-17 09:26:22,839 [Worker-618] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.3.GA is missing, no dependency information available
+2018-01-17 09:26:23,312 [Worker-618] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/hibernate/hibernate3/3.2.3.GA/hibernate3-3.2.3.GA.jar
+2018-01-17 09:26:23,491 [Worker-618] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.3.GA is missing, no dependency information available
+2018-01-17 09:26:23,890 [Worker-618] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:26:23,899 [Worker-618] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 09:26:23,900 [Worker-618] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:26:23,906 [Worker-618] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:26:23,907 [Worker-618] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of RoomBookFinalWar
+2018-01-17 09:26:23,907 [Worker-618] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for RoomBookFinalWar
+2018-01-17 09:26:23,914 [Worker-618] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:26:25,538 [Worker-655] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.3.GA is missing, no dependency information available
+2018-01-17 09:26:25,643 [Worker-655] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:26:25,681 [Worker-655] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 09:26:25,682 [Worker-655] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:26:25,691 [Worker-655] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:26:48,290 [Worker-654] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-01-17 09:26:48,457 [Worker-654] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:26:49,007 [Worker-654] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/hibernate/hibernate3/3.2.3.GA/hibernate3-3.2.3.GA.pom
+2018-01-17 09:26:49,010 [Worker-654] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.3.GA is missing, no dependency information available
+2018-01-17 09:26:49,361 [Worker-654] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/hibernate/hibernate3/3.2.3.GA/hibernate3-3.2.3.GA.jar
+2018-01-17 09:26:49,480 [Worker-654] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.3.GA is missing, no dependency information available
+2018-01-17 09:26:49,755 [Worker-654] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/src
+2018-01-17 09:26:49,755 [Worker-654] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /RoomBookFinalWar/src overlaps with sources folder /RoomBookFinalWar/src
+2018-01-17 09:26:49,756 [Worker-654] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/test
+2018-01-17 09:26:50,818 [Worker-654] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:26:51,017 [Worker-654] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.3.GA is missing, no dependency information available
+2018-01-17 09:26:51,286 [Worker-654] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for RoomBookFinalWar
+2018-01-17 09:26:51,296 [Worker-654] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2018-01-17 09:26:53,661 [Worker-665] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.3.GA is missing, no dependency information available
+2018-01-17 09:26:53,811 [Worker-665] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:26:53,823 [Worker-665] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:26:53,879 [Worker-665] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:26:53,885 [Worker-665] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:28:07,224 [Worker-664] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:28:07,605 [Worker-664] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.3.GA is missing, no dependency information available
+2018-01-17 09:28:09,197 [Worker-664] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.3.GA is missing, no dependency information available
+2018-01-17 09:28:09,767 [Worker-664] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:28:09,782 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 09:28:09,783 [Worker-664] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:28:09,791 [Worker-664] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:28:18,154 [Worker-654] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:28:19,284 [Worker-670] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/hibernate/hibernate3/3.2.6.GA/hibernate3-3.2.6.GA.pom
+2018-01-17 09:28:19,312 [Worker-670] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.6.GA is missing, no dependency information available
+2018-01-17 09:28:19,319 [Worker-654] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.6.GA is missing, no dependency information available
+2018-01-17 09:28:19,826 [Worker-670] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/hibernate/hibernate3/3.2.6.GA/hibernate3-3.2.6.GA.jar
+2018-01-17 09:28:20,018 [Worker-654] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.6.GA is missing, no dependency information available
+2018-01-17 09:28:20,232 [Worker-654] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:28:20,237 [Worker-654] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 09:28:20,238 [Worker-654] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:28:20,243 [Worker-654] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:28:20,244 [Worker-654] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of RoomBookFinalWar
+2018-01-17 09:28:20,244 [Worker-654] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for RoomBookFinalWar
+2018-01-17 09:28:20,247 [Worker-654] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:28:21,896 [Worker-670] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.6.GA is missing, no dependency information available
+2018-01-17 09:28:21,996 [Worker-670] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:28:22,004 [Worker-670] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 09:28:22,005 [Worker-670] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:28:22,010 [Worker-670] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:28:33,238 [Worker-661] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 09:28:33,239 [Worker-661] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s "C:\JAVA Soft\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" clean
+2018-01-17 09:28:35,602 [Worker-654] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:28:35,622 [Worker-654] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:28:35,681 [Worker-654] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:28:35,690 [Worker-654] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:28:45,923 [Worker-655] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-01-17 09:28:46,112 [Worker-655] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:28:46,542 [Worker-655] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/hibernate/hibernate3/3.2.6.GA/hibernate3-3.2.6.GA.pom
+2018-01-17 09:28:46,545 [Worker-655] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.6.GA is missing, no dependency information available
+2018-01-17 09:28:46,912 [Worker-655] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/hibernate/hibernate3/3.2.6.GA/hibernate3-3.2.6.GA.jar
+2018-01-17 09:28:47,034 [Worker-655] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.6.GA is missing, no dependency information available
+2018-01-17 09:28:47,432 [Worker-655] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/src
+2018-01-17 09:28:47,433 [Worker-655] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /RoomBookFinalWar/src overlaps with sources folder /RoomBookFinalWar/src
+2018-01-17 09:28:47,434 [Worker-655] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/test
+2018-01-17 09:28:48,790 [Worker-655] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:28:48,985 [Worker-655] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.6.GA is missing, no dependency information available
+2018-01-17 09:28:49,219 [Worker-655] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for RoomBookFinalWar
+2018-01-17 09:28:49,230 [Worker-655] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2018-01-17 09:28:51,453 [Worker-677] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.6.GA is missing, no dependency information available
+2018-01-17 09:28:51,554 [Worker-677] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:28:51,613 [Worker-677] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:28:51,931 [Worker-677] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:28:51,937 [Worker-677] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:32:15,293 [Worker-666] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-01-17 09:32:15,425 [Worker-666] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:32:16,266 [Worker-666] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/hibernate/hibernate3/3.2.6.GA/hibernate3-3.2.6.GA.pom
+2018-01-17 09:32:16,268 [Worker-666] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.6.GA is missing, no dependency information available
+2018-01-17 09:32:16,631 [Worker-666] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/hibernate/hibernate3/3.2.6.GA/hibernate3-3.2.6.GA.jar
+2018-01-17 09:32:16,798 [Worker-666] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.6.GA is missing, no dependency information available
+2018-01-17 09:32:17,079 [Worker-666] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/src
+2018-01-17 09:32:17,079 [Worker-666] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /RoomBookFinalWar/src overlaps with sources folder /RoomBookFinalWar/src
+2018-01-17 09:32:17,080 [Worker-666] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/test
+2018-01-17 09:32:17,830 [Worker-666] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:32:18,105 [Worker-666] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.6.GA is missing, no dependency information available
+2018-01-17 09:32:18,381 [Worker-666] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for RoomBookFinalWar
+2018-01-17 09:32:18,399 [Worker-666] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2018-01-17 09:32:20,712 [Worker-690] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.6.GA is missing, no dependency information available
+2018-01-17 09:32:20,783 [Worker-690] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:32:20,804 [Worker-690] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:32:20,853 [Worker-690] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:32:20,857 [Worker-690] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:35:48,301 [Worker-702] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:35:48,625 [Worker-702] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.6.GA is missing, no dependency information available
+2018-01-17 09:35:50,613 [Worker-702] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate3:jar:3.2.6.GA is missing, no dependency information available
+2018-01-17 09:35:50,958 [Worker-702] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:35:50,964 [Worker-702] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 09:35:50,965 [Worker-702] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:35:50,970 [Worker-702] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:37:15,494 [Worker-703] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:37:16,406 [Worker-702] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/hibernate/hibernate-core/3.2.6.GA/hibernate-core-3.2.6.GA.pom
+2018-01-17 09:37:16,410 [Worker-702] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate-core:jar:3.2.6.GA is missing, no dependency information available
+2018-01-17 09:37:16,414 [Worker-703] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate-core:jar:3.2.6.GA is missing, no dependency information available
+2018-01-17 09:37:20,106 [Worker-702] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/hibernate/hibernate-core/3.2.6.GA/hibernate-core-3.2.6.GA.jar
+2018-01-17 09:37:20,287 [Worker-703] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate-core:jar:3.2.6.GA is missing, no dependency information available
+2018-01-17 09:37:20,469 [Worker-703] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:37:20,475 [Worker-703] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 09:37:20,477 [Worker-703] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:37:20,483 [Worker-703] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:37:20,483 [Worker-703] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of RoomBookFinalWar
+2018-01-17 09:37:20,483 [Worker-703] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for RoomBookFinalWar
+2018-01-17 09:37:20,495 [Worker-703] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:37:22,678 [Worker-702] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate-core:jar:3.2.6.GA is missing, no dependency information available
+2018-01-17 09:37:22,739 [Worker-702] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:37:22,746 [Worker-702] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 09:37:22,747 [Worker-702] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:37:22,753 [Worker-702] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:37:47,558 [Worker-710] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:37:48,686 [Worker-710] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/hibernate/hibernate-core/3.5.6-Final/hibernate-core-3.5.6-Final.pom
+2018-01-17 09:37:48,690 [Worker-710] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate-core:jar:3.5.6-Final is missing, no dependency information available
+2018-01-17 09:37:49,167 [Worker-710] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/hibernate/hibernate-core/3.5.6-Final/hibernate-core-3.5.6-Final.jar
+2018-01-17 09:37:49,320 [Worker-710] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate-core:jar:3.5.6-Final is missing, no dependency information available
+2018-01-17 09:37:49,685 [Worker-710] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:37:49,691 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 09:37:49,692 [Worker-710] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:37:49,697 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:37:49,698 [Worker-710] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of RoomBookFinalWar
+2018-01-17 09:37:49,698 [Worker-710] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for RoomBookFinalWar
+2018-01-17 09:37:49,701 [Worker-710] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:37:51,624 [Worker-706] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for hibernate:hibernate-core:jar:3.5.6-Final is missing, no dependency information available
+2018-01-17 09:37:51,773 [Worker-706] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:37:51,817 [Worker-706] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 09:37:51,818 [Worker-706] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:37:51,823 [Worker-706] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:38:16,591 [Worker-706] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:38:17,285 [Worker-706] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:38:17,293 [Worker-706] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 09:38:17,294 [Worker-706] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:38:17,303 [Worker-706] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:38:17,303 [Worker-706] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of RoomBookFinalWar
+2018-01-17 09:38:17,304 [Worker-706] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for RoomBookFinalWar
+2018-01-17 09:38:17,308 [Worker-706] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:38:19,477 [Worker-703] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:38:19,512 [Worker-703] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:38:19,579 [Worker-703] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:38:19,601 [Worker-703] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:38:30,802 [Worker-706] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-01-17 09:38:30,936 [Worker-706] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:38:31,414 [Worker-706] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/src
+2018-01-17 09:38:31,415 [Worker-706] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /RoomBookFinalWar/src overlaps with sources folder /RoomBookFinalWar/src
+2018-01-17 09:38:31,415 [Worker-706] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/test
+2018-01-17 09:38:32,261 [Worker-706] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:38:32,913 [Worker-706] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for RoomBookFinalWar
+2018-01-17 09:38:32,923 [Worker-706] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2018-01-17 09:38:36,044 [Worker-717] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:38:36,050 [Worker-717] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:38:36,104 [Worker-717] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:38:36,112 [Worker-717] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:38:41,306 [Worker-709] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 09:38:41,307 [Worker-709] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s "C:\JAVA Soft\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" clean
+2018-01-17 09:38:44,281 [Worker-713] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:38:44,295 [Worker-713] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:38:44,332 [Worker-713] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:38:44,338 [Worker-713] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:38:50,283 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-01-17 09:38:57,199 [Worker-721] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 09:38:57,199 [Worker-721] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s "C:\JAVA Soft\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" clean install
+2018-01-17 09:38:58,639 [Worker-715] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:38:58,653 [Worker-715] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:38:58,658 [Worker-715] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:38:58,663 [Worker-715] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:40:21,118 [Worker-710] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:40:21,129 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:40:21,131 [Worker-710] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:40:21,137 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:40:22,210 [Worker-715] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:40:22,226 [Worker-715] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:40:22,230 [Worker-715] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:40:22,236 [Worker-715] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:40:31,074 [Worker-712] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:40:31,086 [Worker-712] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:40:31,089 [Worker-712] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:40:31,095 [Worker-712] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:42:45,238 [Worker-720] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:42:45,808 [Worker-720] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:42:45,814 [Worker-720] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 09:42:45,815 [Worker-720] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:42:45,822 [Worker-720] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:42:45,822 [Worker-720] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of RoomBookFinalWar
+2018-01-17 09:42:45,822 [Worker-720] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for RoomBookFinalWar
+2018-01-17 09:42:45,826 [Worker-720] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:42:47,662 [Worker-718] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:42:47,675 [Worker-718] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:42:47,709 [Worker-718] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:42:47,715 [Worker-718] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:42:59,816 [Worker-710] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 09:42:59,816 [Worker-710] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s "C:\JAVA Soft\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" clean
+2018-01-17 09:43:02,627 [Worker-704] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:43:02,640 [Worker-704] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:43:02,677 [Worker-704] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:43:02,682 [Worker-704] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:43:08,160 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-01-17 09:43:14,854 [Worker-703] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 09:43:14,855 [Worker-703] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s "C:\JAVA Soft\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" clean install
+2018-01-17 09:49:56,713 [Worker-704] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:49:57,489 [Worker-704] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:49:57,497 [Worker-704] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 09:49:57,499 [Worker-704] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:49:57,506 [Worker-704] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:49:57,506 [Worker-704] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of RoomBookFinalWar
+2018-01-17 09:49:57,506 [Worker-704] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for RoomBookFinalWar
+2018-01-17 09:49:57,515 [Worker-704] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:49:59,555 [Worker-726] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:49:59,606 [Worker-726] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:49:59,734 [Worker-726] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:49:59,785 [Worker-726] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:50:09,684 [Worker-729] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-01-17 09:50:09,829 [Worker-729] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:50:10,387 [Worker-729] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/src
+2018-01-17 09:50:10,387 [Worker-729] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /RoomBookFinalWar/src overlaps with sources folder /RoomBookFinalWar/src
+2018-01-17 09:50:10,388 [Worker-729] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/test
+2018-01-17 09:50:11,117 [Worker-729] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:50:11,486 [Worker-729] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for RoomBookFinalWar
+2018-01-17 09:50:11,495 [Worker-729] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-01-17 09:50:14,180 [Worker-729] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:50:14,188 [Worker-729] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:50:14,234 [Worker-729] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:50:14,240 [Worker-729] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:50:17,384 [Worker-737] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 09:50:17,384 [Worker-737] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s "C:\JAVA Soft\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" clean
+2018-01-17 09:50:20,034 [Worker-741] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:50:20,045 [Worker-741] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:50:20,078 [Worker-741] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:50:20,083 [Worker-741] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:50:26,485 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-01-17 09:50:33,434 [Worker-734] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 09:50:33,434 [Worker-734] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s "C:\JAVA Soft\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" clean install
+2018-01-17 09:58:58,745 [Worker-744] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:59:00,181 [Worker-744] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.0.8/mysql-connector-java-5.0.8.pom
+2018-01-17 09:59:01,243 [Worker-744] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.0.8/mysql-connector-java-5.0.8.pom
+2018-01-17 09:59:01,796 [Worker-744] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.0.8/mysql-connector-java-5.0.8.jar
+2018-01-17 09:59:12,111 [Worker-744] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.0.8/mysql-connector-java-5.0.8.jar
+2018-01-17 09:59:12,123 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-01-17 09:59:14,028 [Worker-744] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:59:14,149 [Worker-744] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 09:59:14,151 [Worker-744] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:59:14,165 [Worker-744] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:59:14,165 [Worker-744] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of RoomBookFinalWar
+2018-01-17 09:59:14,166 [Worker-744] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for RoomBookFinalWar
+2018-01-17 09:59:14,171 [Worker-744] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:59:14,240 [Worker-750] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-01-17 09:59:14,510 [Worker-750] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:59:15,829 [Worker-750] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/src
+2018-01-17 09:59:15,829 [Worker-750] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /RoomBookFinalWar/src overlaps with sources folder /RoomBookFinalWar/src
+2018-01-17 09:59:15,830 [Worker-750] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/test
+2018-01-17 09:59:16,920 [Worker-750] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 09:59:17,273 [Worker-750] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for RoomBookFinalWar
+2018-01-17 09:59:17,283 [Worker-750] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2018-01-17 09:59:22,848 [Worker-765] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:59:22,854 [Worker-765] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 09:59:22,889 [Worker-765] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 09:59:22,893 [Worker-765] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 09:59:23,092 [Worker-750] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 09:59:23,092 [Worker-750] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s "C:\JAVA Soft\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" clean install
+2018-01-17 10:06:55,939 [Worker-751] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:06:55,946 [Worker-751] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 10:06:55,947 [Worker-751] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:06:55,953 [Worker-751] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 10:06:57,026 [Worker-772] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:06:57,035 [Worker-772] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 10:06:57,037 [Worker-772] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:06:57,046 [Worker-772] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 10:06:58,167 [Worker-749] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:06:58,187 [Worker-749] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 10:06:58,191 [Worker-749] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:06:58,217 [Worker-749] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 10:07:20,160 [Worker-749] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:07:20,172 [Worker-749] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 10:07:20,173 [Worker-749] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:07:20,178 [Worker-749] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 10:07:25,006 [Worker-751] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:07:25,014 [Worker-751] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 10:07:25,015 [Worker-751] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:07:25,023 [Worker-751] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 10:07:31,214 [Worker-751] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 10:07:31,214 [Worker-751] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s "C:\JAVA Soft\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" clean
+2018-01-17 10:07:36,186 [Worker-772] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:07:36,198 [Worker-772] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 10:07:36,270 [Worker-772] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:07:36,277 [Worker-772] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 10:07:41,078 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-01-17 10:07:48,239 [Worker-772] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 10:07:48,240 [Worker-772] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s "C:\JAVA Soft\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" clean install
+2018-01-17 10:28:30,981 [Worker-782] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:28:31,008 [Worker-782] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 10:28:31,009 [Worker-782] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:28:31,090 [Worker-782] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 10:35:03,008 [Worker-785] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:35:03,017 [Worker-785] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 10:35:03,018 [Worker-785] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:35:03,023 [Worker-785] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 10:35:05,203 [Worker-787] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:35:05,214 [Worker-787] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 10:35:05,215 [Worker-787] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:35:05,225 [Worker-787] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 10:35:49,794 [Worker-783] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-01-17 10:35:50,318 [Worker-783] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 10:35:51,115 [Worker-783] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/src
+2018-01-17 10:35:51,116 [Worker-783] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /RoomBookFinalWar/src overlaps with sources folder /RoomBookFinalWar/src
+2018-01-17 10:35:51,117 [Worker-783] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/test
+2018-01-17 10:35:52,856 [Worker-783] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 10:35:53,262 [Worker-783] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for RoomBookFinalWar
+2018-01-17 10:35:53,267 [Worker-783] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2018-01-17 10:35:55,972 [Worker-802] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:35:55,979 [Worker-802] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 10:35:56,018 [Worker-802] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:35:56,024 [Worker-802] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 10:38:44,963 [Worker-808] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:38:44,970 [Worker-808] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 10:38:44,971 [Worker-808] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:38:44,980 [Worker-808] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 10:39:22,565 [Worker-800] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:39:22,571 [Worker-800] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 10:39:22,573 [Worker-800] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:39:22,577 [Worker-800] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 10:39:53,260 [Worker-800] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:39:53,265 [Worker-800] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 10:39:53,266 [Worker-800] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:39:53,271 [Worker-800] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 10:43:29,843 [Worker-788] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:43:29,850 [Worker-788] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 10:43:29,851 [Worker-788] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:43:29,858 [Worker-788] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 10:43:32,041 [Worker-812] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:43:32,053 [Worker-812] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 10:43:32,055 [Worker-812] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:43:32,064 [Worker-812] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 10:43:43,412 [Worker-813] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-01-17 10:43:43,608 [Worker-813] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 10:43:44,202 [Worker-813] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/src
+2018-01-17 10:43:44,203 [Worker-813] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /RoomBookFinalWar/src overlaps with sources folder /RoomBookFinalWar/src
+2018-01-17 10:43:44,203 [Worker-813] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/test
+2018-01-17 10:43:45,122 [Worker-813] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 10:43:45,519 [Worker-813] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for RoomBookFinalWar
+2018-01-17 10:43:45,530 [Worker-813] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2018-01-17 10:43:49,527 [Worker-812] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:43:49,542 [Worker-812] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 10:43:49,587 [Worker-812] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:43:49,592 [Worker-812] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 10:44:04,492 [Worker-814] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 10:44:04,492 [Worker-814] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s "C:\JAVA Soft\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" clean
+2018-01-17 10:44:08,822 [Worker-824] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:44:08,835 [Worker-824] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 10:44:08,878 [Worker-824] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:44:08,884 [Worker-824] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 10:44:14,030 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-01-17 10:44:17,287 [Worker-826] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 10:44:17,287 [Worker-826] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s "C:\JAVA Soft\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" install
+2018-01-17 10:44:18,332 [Worker-829] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:44:18,365 [Worker-829] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 10:44:18,366 [Worker-829] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:44:18,372 [Worker-829] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 10:44:58,689 [Worker-815] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-01-17 10:44:58,808 [Worker-815] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 10:44:59,590 [Worker-815] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/src
+2018-01-17 10:44:59,590 [Worker-815] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /RoomBookFinalWar/src overlaps with sources folder /RoomBookFinalWar/src
+2018-01-17 10:44:59,591 [Worker-815] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RoomBookFinalWar/test
+2018-01-17 10:45:00,235 [Worker-815] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-17 10:45:00,650 [Worker-815] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for RoomBookFinalWar
+2018-01-17 10:45:00,659 [Worker-815] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-01-17 10:45:03,172 [Worker-833] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:45:03,179 [Worker-833] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 10:45:03,222 [Worker-833] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 10:45:03,230 [Worker-833] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 11:02:36,141 [Worker-843] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 11:02:36,161 [Worker-843] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 11:02:36,165 [Worker-843] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 11:02:36,174 [Worker-843] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 11:10:55,854 [Worker-846] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 11:10:55,866 [Worker-846] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 11:10:55,867 [Worker-846] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 11:10:55,876 [Worker-846] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 11:11:01,838 [Worker-842] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 11:11:01,846 [Worker-842] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 11:11:01,847 [Worker-842] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 11:11:01,853 [Worker-842] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 11:11:08,111 [Worker-845] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 11:11:08,111 [Worker-845] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s "C:\JAVA Soft\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" clean
+2018-01-17 11:11:10,787 [Worker-846] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 11:11:10,799 [Worker-846] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-17 11:11:10,836 [Worker-846] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 11:11:10,841 [Worker-846] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 11:11:17,613 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-01-17 11:11:23,855 [Worker-842] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\JAVA\HibernateDemo\RoomBookFinalWar
+2018-01-17 11:11:23,855 [Worker-842] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s "C:\JAVA Soft\Maven\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" clean install
+2018-01-17 11:50:25,556 [Worker-860] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 11:50:25,562 [Worker-860] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 11:50:25,563 [Worker-860] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 11:50:25,567 [Worker-860] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 11:50:55,342 [Worker-863] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 11:50:55,357 [Worker-863] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 11:50:55,358 [Worker-863] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 11:50:55,363 [Worker-863] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 11:51:07,798 [Worker-854] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 11:51:07,804 [Worker-854] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 11:51:07,805 [Worker-854] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 11:51:07,809 [Worker-854] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 11:51:34,147 [Worker-860] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 11:51:34,158 [Worker-860] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 11:51:34,160 [Worker-860] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 11:51:34,171 [Worker-860] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 11:51:54,638 [Worker-858] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 11:51:54,647 [Worker-858] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 11:51:54,649 [Worker-858] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 11:51:54,657 [Worker-858] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 12:17:21,644 [Worker-868] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 12:17:21,651 [Worker-868] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 12:17:21,652 [Worker-868] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 12:17:21,658 [Worker-868] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-17 12:22:02,006 [Worker-872] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 12:22:02,012 [Worker-872] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-17 12:22:02,013 [Worker-872] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-17 12:22:02,018 [Worker-872] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-22 14:19:06,197 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-22 14:19:08,599 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-22 14:19:13,994 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-22 14:19:14,038 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-01-22 14:19:14,237 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-22 14:19:14,255 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources
+2018-01-22 14:19:15,545 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.psl:RoomBookFinalWar:0.0.1-SNAPSHOT @ C:\JAVA\HibernateDemo\RoomBookFinalWar\pom.xml.
+2018-01-22 14:19:25,608 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-22 14:19:25,663 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-22 14:19:25,665 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-22 14:19:25,673 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\JAVA\HibernateDemo\RoomBookFinalWar\src\test\resources

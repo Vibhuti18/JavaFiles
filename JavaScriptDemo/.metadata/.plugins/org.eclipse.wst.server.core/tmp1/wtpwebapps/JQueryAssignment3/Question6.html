@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+</head>
+<body>
+
+
+	<table>
+		<tr>
+			<td><label>Username</label></td>
+			<td><input type="text" id="name" /></td>
+		</tr>
+		<tr>
+			<td><label>Password</label></td>
+			<td><input type="text" id="pwd" /></td>
+		</tr>
+		<tr>
+			<td><input type="submit" id="sub" value="submit" /></td>
+		</tr>
+	</table>
+</body>
+
+
+<script>
+	$(function() {
+		$("#sub").click(function() {
+			var url = "NewFile.jsp";
+			var name = document.getElementById('name').value;
+			var pwd = document.getElementById('pwd').value;
+			$.ajax({
+				type : "POST",
+				url : url,
+				data : {
+					name : $("#name").val(),
+					pwd : $("#pwd").val()
+				},
+				success : function(response) {
+					console.log(response);
+					alert(response)
+
+				}
+			})
+
+		});
+	});
+</script>
+</html>

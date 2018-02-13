@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script>
+    
+    $(function(){
+
+        $("#slideUp").click(function(){
+
+$("#theDiv").slideUp(2000,"easeInElastic");
+
+        })
+
+
+        $("#slideDown").click(function(){
+
+$("#theDiv").slideDown(2000,"easeOutBounce");
+
+        })
+
+
+        $("#slideToggle").click(function(){
+
+$("#theDiv").slideToggle();
+
+        })
+
+
+
+        
+    })
+
+
+</script>
+</head>
+<body>
+
+        <div id="theDiv" style="border:2px solid black;background:blue;width:300px;height:300px">the div!</div>
+        <button id="slideUp">Slide Up!</button>
+        <button id="slideDown">slide Down!</button>  
+        <button id="slideToggle">slide Toggle!</button>
+        
+
+    
+</body>
+</html>

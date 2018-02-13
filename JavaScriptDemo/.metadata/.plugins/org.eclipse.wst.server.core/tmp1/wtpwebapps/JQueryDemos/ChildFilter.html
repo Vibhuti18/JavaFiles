@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script>
+	
+	$(function()
+	{
+		//$("p:contains(3)").css("border","solid 2px black");
+		//$("*:contains(3)").css("border","solid 2px black");
+		//$("p:parent").css("border","solid 2px black");
+		//$("p:empty").css("border","solid 2px black");
+		//$("ul li:nth-child(2)").css("border","solid 2px black");
+	    //$("ul li:nth-child(2n+1)").css("border","solid 2px black");	
+		//$("ul li:last-child").css("border","solid 2px black");
+		//$("ul li:last-child").css("border","solid 2px black");
+		//$("ul li:first-child").css("border","solid 2px black");
+		
+		$("button").click(function(){
+			$("div:hidden").css("border","solid red").show()
+		})
+		
+	})
+	
+	</script>
+	<ul id="list1">
+
+		<li class="a">Item 1</li>
+		<li class="a">Item 2</li>
+		<li class="b">Item 3</li>
+		<li class="b">Item 4</li>
+
+
+	</ul>
+
+	<p class="a">This is a para 1</p>
+	<p class="b">This is a para 2</p>
+	<p class="b" id="para3" lang="en-us">This is a para 3</p>
+	<p class="b">This is a para 4</p>
+	<div style="display:none">
+	this is a hidden div
+	</div>
+	
+	<button>tap me</button>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+
+
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script>
+		$(function() {
+
+		$("body").on("click","div",function(){
+			$("#div1").css("background","yellow").css("height","200px").css("width","200px")
+			alert("Click Event Occurred!")	
+		})	
+
+	   $("body").one("mouseover","div",function()
+			   {$("#div1").css("background","red").css("height","200px").css("width","200px")
+				alert("Mouseover Event Occurred!")})
+		}) 
+	</script>
+</head>
+<body>
+<div id="div1" style="
+height:200px,
+width:20px,background:'green'">this is a div</div>
+
+</body>
+</html>

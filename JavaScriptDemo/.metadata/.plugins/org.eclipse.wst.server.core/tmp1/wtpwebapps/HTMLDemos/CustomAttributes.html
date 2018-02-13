@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<article id="ecars" data-colum="3" data-index="1234" data-parent="cars"></article>
+<p hidden>this is a hidden para</p>
+<p dir="rtl">this is a visible para </p>
+
+<p contenteditable="true" spellcheck="true" id="p1">HELOOOOOO</p>
+
+
+<script>
+
+var art = document.getElementById("ecars");
+document.write("colums"+art.dataset.colum)
+document.write("colums"+art.dataset.index)
+document.write("colums"+art.dataset.parent)
+
+
+document.write( document.getElementById("p1").innerHTML)
+</script>
+</body>
+</html>

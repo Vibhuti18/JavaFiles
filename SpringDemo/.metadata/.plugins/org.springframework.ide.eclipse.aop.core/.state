@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="BloodBankMVC"/>
+<aop-project name="SpringMVCMaven"/>
+<aop-project name="IntermediateSpring1">
+<aspect-definition advice-class-name="com.psl.Audience" advice-method-name="takeSeats(java.lang.String, java.lang.String)" advice-type="BEFORE" aspect-end-line-number="9" aspect-name="audience" aspect-start-line-number="9" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/IntermediateSpring1/src/beans.xml" pointcut-expression="pc1(song,artist)" proxy-target-class="false">
+<aop-reference advice-type="BEFORE" bean="1:BeansModel|2:IntermediateSpring1|3:src/beans.xml|7:beans:6|8:performer:8" bean-file="/IntermediateSpring1/src/beans.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/IntermediateSpring1/src/beans.xml" source="=IntermediateSpring1/src&lt;com.psl{Audience.java[Audience~takeSeats~QString;~QString;" source-start-line="23" target="=IntermediateSpring1/src&lt;com.psl{Performer.java[Performer~perform~QString;~QString;" target-start-line="9"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="Assignment2"/>
+<aop-project name="Assignment4">
+<aspect-definition advice-class-name="com.psl.Helper" advice-method-name="ShoppingSession0(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="11" aspect-name="helper" aspect-start-line-number="11" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/Assignment4/src/beans.xml" pointcut-expression="pc0()" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:Assignment4|3:src/beans.xml|7:beans:6|8:shopping:10" bean-file="/Assignment4/src/beans.xml" bean-start-line="10" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/Assignment4/src/beans.xml" source="=Assignment4/src&lt;com.psl{Helper.java[Helper~ShoppingSession0~QProceedingJoinPoint;" source-start-line="49" target="=Assignment4/src&lt;com.psl{Shopping.java[Shopping~browses" target-start-line="10"/>
+</aspect-definition>
+<aspect-definition advice-class-name="com.psl.Helper" advice-method-name="ShoppingSession(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="11" aspect-name="helper" aspect-start-line-number="11" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/Assignment4/src/beans.xml" pointcut-expression="pc1()" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:Assignment4|3:src/beans.xml|7:beans:6|8:shopping:10" bean-file="/Assignment4/src/beans.xml" bean-start-line="10" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/Assignment4/src/beans.xml" source="=Assignment4/src&lt;com.psl{Helper.java[Helper~ShoppingSession~QProceedingJoinPoint;" source-start-line="64" target="=Assignment4/src&lt;com.psl{Shopping.java[Shopping~SelectsProduct" target-start-line="16"/>
+</aspect-definition>
+<aspect-definition advice-class-name="com.psl.Helper" advice-method-name="ShoppingSession2(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="11" aspect-name="helper" aspect-start-line-number="11" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/Assignment4/src/beans.xml" pointcut-expression="pc2()" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:Assignment4|3:src/beans.xml|7:beans:6|8:shopping:10" bean-file="/Assignment4/src/beans.xml" bean-start-line="10" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/Assignment4/src/beans.xml" source="=Assignment4/src&lt;com.psl{Helper.java[Helper~ShoppingSession2~QProceedingJoinPoint;" source-start-line="76" target="=Assignment4/src&lt;com.psl{Shopping.java[Shopping~addtocart" target-start-line="22"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="SpringMVC"/>
+<aop-project name="Spring1"/>
+<aop-project name="Assignment1"/>
+<aop-project name="Assignment3">
+<aspect-definition advice-class-name="com.psl.Ticketcollector" advice-method-name="journey(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="10" aspect-name="tc" aspect-start-line-number="10" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/Assignment3/src/beans.xml" pointcut-expression="pc1()" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:Assignment3|3:src/beans.xml|7:beans:6|8:train:9" bean-file="/Assignment3/src/beans.xml" bean-start-line="9" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/Assignment3/src/beans.xml" source="=Assignment3/src&lt;com.psl{Ticketcollector.java[Ticketcollector~journey~QProceedingJoinPoint;" source-start-line="32" target="=Assignment3/src&lt;com.psl{Train.java[Train~runs" target-start-line="10"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="Spring2"/>
+</aop-reference-model>

@@ -1,0 +1,38 @@
+package com.psl.controller;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.mockito.Mockito.when;
+
+import org.junit.Assert;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
+
+// @RunWith attaches a runner with the test class to initialize the test data
+@RunWith(MockitoJUnitRunner.class)
+public class TestBookRoom {
+
+
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void testDoPostHttpServletRequestHttpServletResponse() {
+		
+
+
+	}
+}

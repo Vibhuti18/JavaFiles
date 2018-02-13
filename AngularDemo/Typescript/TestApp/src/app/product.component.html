@@ -1,0 +1,27 @@
+<h1>List of Items</h1>
+
+    <!-- Search Key: <input type="text" #search (keyup)="validate(search.value)"/>{{search.value}} -->
+    <a routerLink="mobiles">Mobiles</a>
+    <a routerLink="laptops">Laptop</a>
+    <a routerLink="allproducts">AllProducts</a>
+    <router-outlet></router-outlet>
+    <!-- <table border="1">
+    <th>Id</th>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Price</th>
+    <th>Quantity</th>
+    <th>Image</th>
+    <th>Action</th>
+    <tr *ngFor="let product of products;let i=index;">
+    <td>{{product.id}}</td>
+    <td>{{product.name}}</td>
+    <td>{{product.dec}}</td>
+    <td>{{product.price}}</td>
+    <td>{{product.qty}}</td>
+    <td><img [src]="product.imgPath"/></td>
+    <td *ngIf="isAdmin"><button [disabled]="!isAdmin"  (click)="remove(i)">Delete</button></td>
+    <td><button [disabled]="!isAdmin">Edit</button></td>
+    <td><button (click)="addTocart(i)">Add to Cart</button></td>
+    </tr>
+    </table> -->

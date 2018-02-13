@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+
+</head>
+<body>
+
+<h1></h1>
+<ul>
+<li>Item1</li>
+<li>Item2</li>
+<li>Item3</li>
+<li>Item4</li>
+<li>Item5</li>
+<li>Item6</li>
+</ul>
+
+<p><b>You selected Item:</b></p>
+<div></div>
+	<button type="submit">Logout</button>
+	<script>
+	$(function(){
+		var i=0;
+	    $("h1").append("Welcome "+localStorage.getItem('name'))		
+	    $("li").click(function(){
+	    	sessionStorage.setItem('item'+i, $(this).text());
+	    	i++;
+	    	$("div").append($(this).text()+'<br/>');	
+	    })
+	    	 $("button").click(function() {
+			localStorage.removeItem('name')
+			sessionStorage.clear();
+			$("p").empty();
+			$("div").empty();
+		 	$("h1").empty().append("Welcome")	
+		 }) 
+	})
+		
+	</script>
+</body>
+</html>

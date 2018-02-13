@@ -1,0 +1,88 @@
+package problems;
+
+public class MaximumSumMatrix {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int[][] aMatrix = { { 4, 5, 2 }, { -3, 7, 3 }, { -6, 1, -9 } };
+		// Matrix.initialize(aMatrix);
+		printMatrix(aMatrix);
+		System.out.println(aMatrix[0].length);
+		findMaximumSubMatrix(aMatrix);
+	}
+
+	private static void printMatrix(int[][] matrix) {
+		// TODO Auto-generated method stub
+		for (int i = 0; i < matrix.length; i++) {
+		    for (int j = 0; j < matrix[i].length; j++) {
+		        System.out.print(matrix[i][j] + " ");
+		    }
+		    System.out.println();
+		}
+	}
+	
+	private static void printMatrix(int[] matrix) {
+		// TODO Auto-generated method stub
+		for (int i = 0; i < matrix.length; i++) {
+		    
+		        System.out.print(matrix[i] + " ");
+		    
+		    System.out.println();
+		}
+	}
+	
+	private static void printMatrix(int[][][] matrix) {
+		// TODO Auto-generated method stub
+		for (int i = 0; i < matrix.length; i++) {
+		    for (int j = 0; j < matrix[i].length; j++) {
+		    	for (int k = 0; k < matrix[j].length; k++) {
+		    		 System.out.print(matrix[i][j] + " ");
+				}
+		       
+		    }
+		    System.out.println();
+		}
+	}
+
+	private static void findMaximumSubMatrix(int[][] aMatrix) {
+		// TODO Auto-generated method stub
+
+		int[] oneD;
+		int maxSum = Integer.MIN_VALUE;
+		for (int i = 0; i < aMatrix.length; i++) {
+			oneD = new int[aMatrix[0].length];
+			//System.out.println("OneD : "+i+" "+oneD.length);
+			int current = 0;
+			int maxCurrent = Integer.MIN_VALUE;
+			
+			
+			for (int k = i; k < aMatrix.length; k++) 
+			{
+				current = 0;
+				
+				for (int j = 0; j < aMatrix[0].length; j++) 
+				{
+					oneD[j] = oneD[j] + aMatrix[k][j];
+					current = current + oneD[j];
+					if (current > maxCurrent) {
+						maxCurrent = current;
+					}
+					if (current < 0) {
+						current = 0;
+					}
+				}
+				System.out.println("***************");
+				printMatrix(oneD);
+				System.out.println("***************");
+				
+				if (maxSum < maxCurrent)
+					maxSum = maxCurrent;
+			}
+		}
+		System.out.print(maxSum);
+	}
+}

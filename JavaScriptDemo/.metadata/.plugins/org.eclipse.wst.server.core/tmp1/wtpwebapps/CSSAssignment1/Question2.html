@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+header {
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Tahoma';
+	color: black;
+	height: 100px;
+	background-color: blue;
+	left: 0
+}
+
+#u1 {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: grey;
+	position: fixed;
+	width: 100%;
+}
+
+#u1 li {
+	float: left;
+}
+
+#u1 li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	left: 0
+}
+
+#u1 li a:hover:not (.active ) {
+	background-color: teal;
+}
+
+footer {
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	background-color: grey;
+	float: left;
+	width: 100%;
+	height: 5%;
+}
+
+#d1 {
+	align: auto;
+	overflow: hidden;
+	background-color: #b5b8bc;
+	height: 200px;
+	width: 250px;
+	position: absolute;
+	left: 0;
+}
+
+#d2 {
+	align: center;
+	overflow: hidden;
+	background-color: white;
+	height: 200px;
+	width: 250px;
+	position: absolute;
+	left: 600px
+}
+
+#d3 {
+	align: right;
+	overflow: hidden;
+	background-color: #b5b8bc;
+	height: 200px;
+	width: 300px;
+	position: absolute;
+	left: 1200px;
+}
+
+img {
+	height: 100px;
+	width: 100px;
+}
+
+aside {
+	position: fixed;
+	right: 0;
+	bottom: 37px;
+	background-color: #b5b8bc;
+	height:200px;
+	width: 300px
+}
+</style>
+</head>
+<body>
+	<header>CompanyName</header>
+	<ul id="u1">
+		<li><a class="active" href="#home">Home</a></li>
+		<li><a href="#news">AboutUs</a></li>
+		<li><a href="#contact">Products</a></li>
+		<li><a href="#contact">Services</a></li>
+		<li><a href="#contact">MoreNews</a></li>
+	</ul>
+
+
+	<br />
+	<br />
+	<br />
+
+	<ul>
+		<li style="list-style-type: none;">
+			<div id="d1">
+
+				<h2>Company News</h2>
+				<br>someText someText someText
+			</div>
+		</li>
+
+
+		<li style="list-style-type: none;">
+			<div id="d2">
+
+				<h1>featured Content</h1>
+				<br>
+				<h3>features of this website</h3>
+			</div>
+		</li>
+
+		<li style="list-style-type: none;">
+
+			<div id="d3">
+
+				<h2>Latest Events</h2>
+				<br> someText someText
+			</div>
+		</li>
+	</ul>
+
+	<aside>
+		<h2>Website Add ons</h2>
+		<br> someText someText
+	</aside>
+
+
+	<footer> Copyright &copy;www.companyname.com-All Rights
+		Reserved </footer>
+
+</body>
+</html>

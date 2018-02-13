@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+
+</head>
+<body>
+
+<h1></h1>
+	<button type="submit">Logout</button>
+	<script>
+	
+	$(function(){
+
+		var abc=new Array();
+  abc[0]="DU1";
+  abc[10]="DU10";
+
+var count = 0;
+$.each(abc,function(i,v){
+  count++;
+});
+console.log(count);
+
+
+
+
+		// $("h1").append("Welcome "+localStorage.getItem('name'))		
+		// $("button").click(function() {
+		// 	localStorage.removeItem('name')
+		// 	$("h1").empty().append("Welcome")	
+		// })
+		
+	})
+		
+	</script>
+</body>
+</html>

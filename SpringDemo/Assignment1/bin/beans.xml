@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+
+
+<context:annotation-config/>
+		<context:component-scan base-package="com.psl"></context:component-scan>
+
+<bean class="com.psl.Person" id="person" scope="prototype" lazy-init="true" autowire="byType">
+<property name="name" value="Vibhuti"/>
+<property name="age" value="21"/>
+<property name="source" value="Goa"/>
+<property name="destination" value="Delhi"/>
+<property name="ticket" ref="ticket12"></property>
+<property name="st" ref="st"/>
+</bean>
+
+
+<bean class="com.psl.Ticket" id="ticket" primary="true" autowire-candidate="true">
+<constructor-arg  value="2000"/>
+<constructor-arg value="101"/>
+</bean>
+
+<bean class="com.psl.Ticket" id="ticket1" primary="false" autowire-candidate="true">
+<constructor-arg  value="2000"/>
+<constructor-arg value="101"/>
+</bean>
+
+<bean class="com.psl.Ticket" id="ticket12" parent="ticket">
+</bean>
+</beans>

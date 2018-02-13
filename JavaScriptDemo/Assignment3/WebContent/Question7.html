@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<table>
+		<tr>
+			<td><label>Username</label></td>
+			<td><input type="text" id="name" /></td>
+		</tr>
+		<tr>
+			<td><label>Password</label></td>
+			<td><input type="text" id="pwd" /></td>
+		</tr>
+		<tr>
+			<td><input type="submit" id="sub" value="submit"/></td>
+		</tr>
+	</table>
+</body>
+
+
+<script>
+document.getElementById("sub").onclick=getEmployeeDetails;
+
+function getEmployeeDetails()
+{
+	xmlhttp=new XMLHttpRequest();
+	
+var url="NewFile.jsp";
+var name = document.getElementById('name').value;
+var pwd = document.getElementById('pwd').value;
+xmlhttp.open("POST",url,true);
+xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+xmlhttp.onreadystatechange=handleResponse;
+var data = "name=" + name + "&pwd=" + pwd;
+xmlhttp.send(data);
+}
+
+
+function handleResponse()
+{
+	if(xmlhttp.readyState==4 && xmlhttp.status==200)
+	{
+	var response = xmlhttp.responseText;
+	  if(response=="admin")
+		{ 
+		alert('You are logged in as administrator');
+		}
+	else
+		{
+		alert('You are not logged in as Administrator. You do not have rights to make any changes in the profile settings')
+		} 
+	
+
+	} 
+	
+}
+
+
+
+
+</script>
+</html>

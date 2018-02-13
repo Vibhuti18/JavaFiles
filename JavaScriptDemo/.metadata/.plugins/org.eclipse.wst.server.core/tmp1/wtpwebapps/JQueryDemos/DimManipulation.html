@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+
+    <script>
+    
+    $(function(){
+
+  // alert($("#list1").text())
+  //alert($("#list1").html())
+
+
+ // $("#list2").html("<li>this is a new list item</li>")
+
+ //var mypara=$("<p>This is my paragraph</p>")
+ //$("#para3").html(mypara)
+
+
+ //$('a').attr('target','_blank')
+
+ //$("#para1").appendTo("p:last")
+ //$("a").attr('target','_blank')
+ //$('a').removeAttr('href')
+ 
+
+ //$("ul").empty()
+ //$("ul").remove()
+
+$("#b1").click(function()
+{
+    $("img").attr("src","Tulips.jpg")
+});
+
+$("p").wrap("<div style='border: 3px solid blue'></div>")
+ //$("#para3").clone().appendTo("#para1")
+ //$("#para3").replaceWith("<p>This is replaced paragraph</p>")
+ //$("#para3").replaceWith($('#para1'))
+
+  var elems=$("li.b").get();
+     alert(elems.length)
+
+
+$("ul").find("li.b").css("border","3px solid black")
+
+
+    });
+
+
+    
+    
+    </script>
+
+    <a href="Jellyfish.jpg"><img src="Jellyfish.jpg" width="200px" height="200px"/></a>
+    <ul id="list2"></ul>
+    <ul id="list1">
+
+<li class="a">Item1</li>
+<li class="a">Item2</li>
+<li class="b">Item3</li>
+<li class="b">Item4</li>
+
+    </ul>
+
+    <p id="para1" class="a">This is paragraph 1</p>
+    <p>
+        This is paragraph 2
+    </p>
+
+    <ul id="list3">
+        <li>Item1</li>
+        <li>Item2</li>
+    </ul>
+
+    <p id="para3" class="b">This is paragraph 3</p>
+    <p class="b">this is para 4</p>
+
+    <button id="b1">Click me</button>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<div style="padding:30px;" id="div1">
+	<Button id="but1">
+		<img src='Desert.jpg' style="width: 100px; height: 100px;" id="i1"></img>
+	</Button>
+</div>
+
+
+<script>
+
+var div1=document.getElementById("div1"); 
+var but1=document.getElementById("but1"); 
+var i1=document.getElementById("i1");
+
+div1.addEventListener("click" , clickDiv , false);
+but1.addEventListener("click" , clickBut , false);
+i1.addEventListener("click" , clickImg , false);
+
+function clickDiv(event){
+	alert("I am in div");
+}
+
+function clickImg(e){
+	alert("I am in img");
+}
+
+function clickBut(){
+	alert("I am in Button");
+}
+</script>
+
+</body>
+</html>

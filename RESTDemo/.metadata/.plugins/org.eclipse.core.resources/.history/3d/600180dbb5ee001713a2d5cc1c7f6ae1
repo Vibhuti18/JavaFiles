@@ -1,0 +1,13 @@
+package com.tienda.bean;
+
+import java.util.Date;
+import java.util.List;
+
+public class Orders {
+	
+	int orderNumber;
+	Date orderDate;
+	Users user;
+	List<String> items;
+
+}

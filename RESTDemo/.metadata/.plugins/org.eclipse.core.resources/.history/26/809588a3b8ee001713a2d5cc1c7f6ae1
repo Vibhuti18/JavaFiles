@@ -1,0 +1,77 @@
+package com.tienda.bean;
+
+import java.util.Date;
+import java.util.Set;
+
+public class Orders {
+
+	private int orderId;
+	private int orderNumber;
+	private Date orderDate;
+	private User orderedBy;
+	private Set<Product> cart;
+	private orderStatus status;
+
+	public Orders() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Orders(int orderId, int orderNumber, Date orderDate,
+			User orderedBy, Set<Product> cart, orderStatus status) {
+		this.orderId = orderId;
+		this.orderNumber = orderNumber;
+		this.orderDate = orderDate;
+		this.orderedBy = orderedBy;
+		this.cart = cart;
+		this.status = status;
+	}
+
+	public int getOrderId() {
+		return orderId;
+	}
+
+	public void setOrderId(int orderId) {
+		this.orderId = orderId;
+	}
+
+	public int getOrderNumber() {
+		return orderNumber;
+	}
+
+	public void setOrderNumber(int orderNumber) {
+		this.orderNumber = orderNumber;
+	}
+
+	public Date getOrderDate() {
+		return orderDate;
+	}
+
+	public void setOrderDate(Date orderDate) {
+		this.orderDate = orderDate;
+	}
+
+	public User getOrderedBy() {
+		return orderedBy;
+	}
+
+	public void setOrderedBy(User orderedBy) {
+		this.orderedBy = orderedBy;
+	}
+
+	public Set<Product> getCart() {
+		return cart;
+	}
+
+	public void setCart(Set<Product> cart) {
+		this.cart = cart;
+	}
+
+	public orderStatus getStatus() {
+		return status;
+	}
+
+	public void setStatus(orderStatus status) {
+		this.status = status;
+	}
+
+}

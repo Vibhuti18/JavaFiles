@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<table id="perdetails">
+		<tr>
+			<td><label>Firstname</label></td>
+			<td><input type="text" id="fname"  /></td>
+		</tr>
+		<tr>
+			<td><label>Lastname</label></td>
+			<td><input type="text" id="lname" /></td>
+		</tr>
+		<tr>
+			<td><label>City</label></td>
+			<td><input type="text" id="city" /></td>
+		</tr>
+		<tr>
+			<td><label>ContactNo</label></td>
+			<td><input type="text" id="cno" /></td>
+		</tr>
+	</table>
+	<input type="submit" id="sub" value="GetPersonalDetails"/>
+	<table id="pdetails">
+		<tr>
+			<td><label>ProjectId</label></td>
+			<td><input type="text" id="pid" /></td>
+		</tr>
+		<tr>
+			<td><label>ProjectLocation</label></td>
+			<td><input type="text" id="ploc" /></td>
+		</tr>
+	</table>
+		<input type="submit" id="sub1" value="GetProjectDetails"/>
+		
+		
+		<script>
+		document.getElementById("sub").onclick= getEmployeeDetails;
+
+		function getEmployeeDetails() {
+
+			xml = new XMLHttpRequest();
+
+			var url = "PersonalDetails.jsp";
+
+			xml.open("GET", url, true);
+
+			xml.onreadystatechange = handleResponse;
+
+			xml.send();
+
+		}
+
+		function handleResponse() {
+			if (xml.readyState == 4 && xml.status == 200) {
+				var response = xml.responseXML;
+				var x = response.getElementsByTagName("data");
+				var s = x[0].getElementsByTagName("firstname")[0].childNodes[0].nodeValue
+				var s1 = x[0].getElementsByTagName("lastname")[0].childNodes[0].nodeValue
+				var s2 = x[0].getElementsByTagName("city")[0].childNodes[0].nodeValue
+				var s3 = x[0].getElementsByTagName("contactno")[0].childNodes[0].nodeValue
+				document.getElementById("fname").value = s;
+				document.getElementById("lname").value = s1;
+				document.getElementById("city").value = s2;
+				document.getElementById("cno").value = s3;
+			}
+		}
+		document.getElementById("sub1").onclick= getProjectDetails;
+
+		function getProjectDetails() {
+
+			xml = new XMLHttpRequest();
+
+			var url = "ProjectDetails.jsp";
+
+			xml.open("GET", url, true);
+
+			xml.onreadystatechange = handleResponse1;
+
+			xml.send();
+
+		}
+
+		function handleResponse1() {
+			if (xml.readyState == 4 && xml.status == 200) {
+				var response = JSON.parse(xml.responseText);
+				//console.log((response.name))
+				document.getElementById("pid").value = response.pid;
+				document.getElementById("ploc").value = response.ploc;
+			}
+		}
+		
+		
+		
+		
+		
+		</script>
+</body>
+
+
+
+</html>

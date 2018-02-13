@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<select id="dropdownlist">
+		<option value="volvo">Volvo</option>
+		<option value="saab">Saab</option>
+		<option value="mercedes">Mercedes</option>
+		<option value="audi">Audi</option>
+	</select>
+
+	<script>
+		document.getElementById("dropdownlist").onclick = Display;
+		function Display() {
+			var dis="\n";
+			var x = document.getElementById("dropdownlist")
+			console.log(x.children[0].innerHTML)
+			for(var i=0;i<x.length;i++)
+				{
+				dis = dis +x.options[i].innerHTML+"\n"
+				}
+			
+			alert("Length is "+x.length+"\n Items are "+dis)
+		}
+	</script>
+
+</body>
+</html>

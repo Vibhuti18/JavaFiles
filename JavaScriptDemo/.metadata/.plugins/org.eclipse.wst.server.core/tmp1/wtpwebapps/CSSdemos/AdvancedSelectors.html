@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style>
+
+/* p,div
+{
+color:red;
+}
+ */
+
+/* descendant selector */
+/*  div p
+ {
+ border:solid black 2px
+ 
+ } */
+
+/* Child selector */
+ul>li {
+	font-size: 20px
+}
+
+/* ul~ div
+{
+border:2px solid brown
+}
+ */
+/* ul+div
+{
+font-family:Lucida Handwriting
+} */
+
+/* div:hover
+{
+font-family:Lucida Handwriting
+} */
+
+/* a:LINK
+{
+
+color:red
+}
+
+a:hover
+{
+color:green
+}
+
+a:VISITED {
+	color:yellow
+}
+
+
+p:FIRST-CHILD {
+	color:pink
+}
+ */
+/* ul:only-of-type
+{
+
+border:2px solid brown
+}
+ */
+
+/*  p::FIRST-LETTER {
+	font-size:40px
+}
+ */
+
+/*  
+ p::FIRST-LINE {
+	font-size:40px
+} */
+/* h1::BEFORE {
+	content:url("Penguins.jpg")
+}
+ */
+/* h1::After {
+	content:url("Penguins.jpg")
+} */
+::selection {
+	background-color: aqua
+}
+
+/* p {
+	font-family: Times New Roman, 'Times', serif;
+	font-size: 28px;
+	font-weight: 200;
+	color: maroon;
+}
+
+div {
+	font-family: sans-serif;
+	font-size: 1.2em;
+	font-weight: bolder
+} */
+
+@FONT-FACE {
+	font-family: KaushanScript-Regular;
+	src: url(KaushanScript-Regular.otf);
+}
+
+h1
+{
+font-family: KaushanScript-Regularr;
+color:red;
+}
+
+
+p
+{
+text-align: center;
+word-spacing: 1.2em;
+letter-spacing: 0.25em;
+text-transform: capitalize;
+}
+
+h2
+{
+
+/* background-color: rgba(255,0,0,0.2) */
+
+
+background-color: hsla(120,70%,10%,0.7);
+
+}
+
+body
+{
+background-image: url("Penguins.jpg"),url("Desert.jpg");
+background-repeat: no-repeat;
+background-color: grey;
+background-position: 10px,140px;
+background-attachment: fixed;
+
+}
+
+#d1
+{
+height:300px;
+width: 300px;	
+border: 5px solid blue;
+padding:40px;
+margin:120px;
+
+
+}
+
+</style>
+</head>
+<body>
+
+<div id="d1">
+
+This is a box model demo div
+
+</div>
+<h2>Heading 5</h2>
+
+	<h1>Hello Smile Please</h1>
+	<ul id="list1">
+		<li class="a">item1</li>
+		<li class="a">item2</li>
+		<li class="b">item3</li>
+		<li class="b">item4</li>
+		<li>item5</li>
+
+	</ul>
+
+	<div>
+		This is div 1<br /> <br /> <br /> <br />
+		<p>I am nested p</p>
+	</div>
+
+	<p class="a">this is paragraph 1
+	<div>this is div 2 inside para 1</div>
+
+	</p>
+
+
+	<div>
+		<p id="para1">This is para 2</p>
+	</div>
+
+
+
+
+	<p class="b">this is para 3
+	<p>nested first para</p>
+	<p>Nested second para</p>
+	</p>
+
+	<div>this is div 3</div>
+	<p>
+		this is another para <br />including break tag in between
+	</p>
+
+	<p>Last para</p>
+
+
+	<a href="https://www.google.com">this is a link</a>
+
+</body>
+</html>

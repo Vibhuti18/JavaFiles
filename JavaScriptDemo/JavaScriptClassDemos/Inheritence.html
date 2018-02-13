@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+    function Parent(n)
+    {
+        this.name = n;
+        this.loc = ["goa","Pune"];
+        this.show= function()
+        {
+            return this.name;
+        }
+    }
+
+    function child()
+    {
+
+    }
+
+    child.prototype=new Parent('mother');
+    child.prototype.constructor = child;
+
+    var child1 = new child('son');
+    var child2 = new child('daughter');
+    //alert(child1.show());
+    child1.loc.push('nagpur');
+    alert(child1.loc);
+    alert(child2.loc);
+
+    
+    </script>
+</body>
+</html>

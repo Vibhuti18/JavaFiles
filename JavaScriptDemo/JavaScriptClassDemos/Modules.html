@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+    
+    function employee(name,id,salary)
+    {
+        this.name = name;
+        this.id=id;
+        this.salary=salary;
+    }
+
+
+ var modE =  (function(){
+
+
+        var empList=[];
+
+        return {
+            add:function(e){
+
+                 empList.push(e);
+            },
+
+                show:function(){
+
+                     for (var key in empList) {
+              
+                         console.log(empList[key]);
+
+                    }
+                }
+              }
+
+    })();
+    var emp1 = new employee("John",10,10000);
+    var emp2 = new employee("Kate",11,50000);
+
+modE.add(emp1);
+modE.add(emp2);
+
+modE.show();
+
+    
+    </script>$
+    
+</body>
+</html>

@@ -1,0 +1,8 @@
+package com.tienda.resource;
+
+import javax.ws.rs.Path;
+
+@Path("/users")
+public class UserResource {
+//resource class
+}

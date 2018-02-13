@@ -1,0 +1,34 @@
+package com.psl.dao;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+public class TestRoomDao {
+
+	RoomDao roomdao;
+	@Before
+	public void setUp() throws Exception {
+		roomdao=new RoomDao();
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+	
+	@Test
+	public voidinsertRoomDetails
+
+	@Test
+	public void testGetRoomByLocation() {
+		assert
+	}
+
+	@Test
+	public void testGetRoomByLocationByType() {
+		fail("Not yet implemented");
+	}
+
+}

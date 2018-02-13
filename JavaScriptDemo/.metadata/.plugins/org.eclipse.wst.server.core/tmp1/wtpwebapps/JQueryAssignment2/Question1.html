@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+
+.main
+{
+background:blue;
+height:200px;
+width:200px;
+}
+
+.main1
+{
+background:red;
+height:200px;
+width:200px;
+}
+
+</style>
+
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script>
+		$(function() {
+
+			$("#b1").click(function(event){
+			
+				$("#div1").toggleClass("main1")
+				alert(event.type)
+			})
+			
+			
+
+		})
+	</script>
+</head>
+<body>
+<div class="main" id="div1"></div>
+<button id="b1">Toggle</button>
+</body>
+</html>

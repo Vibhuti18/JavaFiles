@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	
+<title>Document</title>
+</head>
+<body>
+	<p>
+		<b>Enter the limit to calculate the odd numbers starting from 1
+			to:</b> <input type="text" id="ip">
+	</p>
+	<button id="start" onclick="startCount()">Start</button>
+	<button id="stop" onclick="stopCount()">Stop</button>
+	<script>
+	var worker;
+		function startCount(){
+
+			worker = new Worker('CountOdds.js');
+			var t =  $("#ip").val();
+			worker.postMessage({
+				limit:t
+			});
+			console.log('Message posted to worker');
+			
+			worker.onmessage = function(e) {
+				$("body").append(e.data+'<br/>');	
+				console.log('Message received from worker');
+			};
+		}
+
+		function stopCount() {
+			worker.terminate();
+			worker=undefined
+		}		
+	</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script>
+		$(function() {
+              $("#div3").click(function(){
+            	  alert("I am in the outer Div")
+              })
+              
+                 $("#div2").click(function(){
+            	  alert("I am in Middle Div")
+              })
+              
+                $("#div1").click(function(){
+            	  alert("I am inside Innermost Div’")
+              })
+              
+              
+		}) 
+	</script>
+</head>
+<body>
+	<div id="div3">
+		<div id="div2">
+			<div id="div1">hey there</div>
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+
+        <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+        <script>
+       
+    $(function(){
+        var b1count=0;
+        var b2count=0;
+
+        $("#b1").click(function(){
+            b1count++;
+            $("#p1").text(b1count)
+})
+
+
+$("#b2").click(function(){
+$("#b1").trigger("click");
+b2count++;
+$("#p2").text(b2count)
+})
+   
+    });
+
+    </script>
+
+    <button id ="b1">Button #1</button>
+    <button id ="b2">Button #2</button>
+
+    <p><span id="p1">0</span> Button #1 clicks</p>
+    <p><span id="p2">0</span> Button #2 clicks</p>
+    
+</body>
+</html>

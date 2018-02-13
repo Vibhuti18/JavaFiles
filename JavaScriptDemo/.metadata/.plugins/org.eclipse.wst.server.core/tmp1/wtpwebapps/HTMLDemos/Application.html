@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<p>Please complete all required fields marked with a *.</p>
+	<form>
+		<fieldset>
+			<legend>User Details</legend>
+			<label>first Name *</label><input type="text"
+				placeholder="enter firstname" required><br /> <label>Last
+				Name *</label><input type="text" required><br /> <label>Email*</label><input
+				type="email" required><br /> <label>Password*</label><input
+				type="text" required pattern="(?=.*\d)(?=.*[A-Z]).{6,20}"><br />
+		</fieldset>
+
+		<fieldset>
+			<legend>Personal Details</legend>
+			<label>Birthday*</label><input type="date" required>
+			<fieldset>
+				<legend>Gender*</legend>
+
+				<input type="radio" value="0" name="gender">male <input
+					type="radio" value="1" name="gender"> female
+			</fieldset>
+		</fieldset>
+
+		<fieldset>
+			<legend>Address details</legend>
+
+			<fieldset>
+				<legend>Phone</legend>
+				<label>Area Code*</label><input type="text"
+					pattern="[a-zA-Z]{2}\d{2}[a-zA-Z]{2}" required><br> <label>Three
+					Digits*</label><input type="text" pattern="\d{3}" required><br>
+				<label>four Digits*</label><input type="text" pattern="\d{4}"
+					required><br>
+
+			</fieldset>
+			<label>Location*</label> <input type="text" list="cnt">
+			<datalist id="cnt" required>
+				<option value="India"></option>
+				<option value="India"></option>
+				<option value="India"></option>
+			</datalist>
+			<br> <label>Zip code*</label><input type="text" pattern="\d{6}"
+				required><br>
+		</fieldset>
+
+		<fieldset>
+			<legend>Terms of Service</legend>
+
+			<input type="checkbox" required>*I agree to the terms of the
+			service
+
+		</fieldset>
+		<button type="submit">Submit</button>
+		<button type="reset">Cancel</button>
+	</form>
+</body>
+</html>

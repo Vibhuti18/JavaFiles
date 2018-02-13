@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+
+<input type="submit" value ="add" id="add1"/>
+<input type="submit" value ="sub" id="sub1"/>
+<input type="submit" value ="mul" id="mul1"/>
+<input type="submit" value ="div" id="div1"/>
+<input type="reset" value ="clear" id="clr"/>
+Result:
+<input type="text" id="res">
+
+<script>
+
+var a=prompt("Enter 2 numbers",a)
+var asplit=a.split(" ")
+alert(asplit[0]+" and  "+asplit[1])
+
+add1.addEventListener("click",addClicked,false);
+sub1.addEventListener("click",subClicked,false);
+mul1.addEventListener("click",mulClicked,false);
+div1.addEventListener("click",divClicked,false);
+clr.addEventListener("click",clrClicked,false); 
+
+
+
+function addClicked(){
+	
+	res.value=parseInt(asplit[0])+parseInt(asplit[1])
+  
+}
+
+function subClicked(){
+	
+	res.value=parseInt(asplit[0])-parseInt(asplit[1])
+  
+}
+
+function mulClicked(){
+	
+	res.value=parseInt(asplit[0])*parseInt(asplit[1])
+  
+}
+
+function divClicked(){
+	
+	res.value=parseInt(asplit[0])/parseInt(asplit[1])
+  
+}
+
+function clrClicked(){
+	res.value=""
+  
+}
+
+
+
+</script>
+
+
+
+</body>
+</html>

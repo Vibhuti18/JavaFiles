@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+   
+
+    <script>
+    
+    $(function(){
+    	
+    	
+    $("body").on("click","body,ul,li,div,p",func1)
+
+    function func1(){
+    	
+    	alert(this.nodeType+" and #children r "+this.children.length);
+    	
+    }
+    
+    
+    
+    })
+    
+    
+    
+</script>
+</head>
+<body>rty
+<ul>qwe
+<li>List1</li>
+<li>List2</li>
+<li>List3</li>
+<li>List4</li>
+<li>List5</li>
+<li>List6</li>
+</ul>
+
+<div>
+div 1
+</div>
+<div>
+div 2
+</div>
+<div>
+div 3
+</div>
+<p>para1</p>
+<p>para2</p>
+<p>para3</p>
+</body>
+</html>

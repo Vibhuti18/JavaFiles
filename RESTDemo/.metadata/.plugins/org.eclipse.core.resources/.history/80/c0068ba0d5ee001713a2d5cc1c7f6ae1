@@ -1,0 +1,26 @@
+package com.tienda.resource;
+
+import java.util.Set;
+
+import com.tienda.bean.Orders;
+import com.tienda.service.TiendaService;
+import com.tienda.util.OrderNotFoundException;
+
+public class OrderResource {
+	
+public Orders fetchOrderDetailsForUser(String username,String number) throws OrderNotFoundException{
+	Orders order;
+	order=new TiendaService().getOrderDetailsForUser(username, number);
+	return order;
+		
+	}
+	
+	public Set<Orders> fetchAllOrdersforUser(String username) {
+		
+	}
+	
+	public void createOrder(Order order) {
+		
+	}
+
+}

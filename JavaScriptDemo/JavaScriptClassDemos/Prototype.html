@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    
+    function person(n)
+    {
+        this.name = n; //constructor level method
+        this.showname = function()
+        {
+            alert(this.name);
+        }
+    }
+
+    var per1=new person('John');
+    per1.showname(); 
+
+    var per2=new person('Kate');
+    per2.showname(); 
+    per1.display=function()
+    {
+        alert("I am function 1")
+    }
+
+   //per2.display();
+
+   person.prototype.displayCity=function()
+   {
+       alert("Hi i am in goa")
+   }
+
+   per1.displayCity();
+   per2.displayCity();
+    </script>
+    
+</body>
+</html>

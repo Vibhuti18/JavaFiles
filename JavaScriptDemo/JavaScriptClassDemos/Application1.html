@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="UL"><li>JavaScript</li><li>jQuery</li><li>AngularJs</li><li>NodeJs</li></ul>
+        <button onclick ="clicked1()">Get firstchild</button>
+        <button onclick="clicked2()">Get NextString</button>
+        <button onclick="clicked3()">Get Lastchild</button>
+        <button onclick="clicked4()">Get PreviousString</button>
+        <button onclick="clicked5()">Get childNodes</button>
+        <button onclick="clicked6()">Get ParentNode</button>
+
+    <script>
+
+function clicked1()
+{   
+    var ul= document.getElementById("UL").firstChild.innerHTML;
+document.write(ul);
+}
+
+function clicked2()
+{
+    document.write(document.getElementById("UL").firstChild.nextSibling.innerHTML)
+}
+
+function clicked3()
+{
+    document.write(document.getElementById("UL").lastChild.innerHTML)
+}
+
+function clicked4()
+{
+    document.write(document.getElementById("UL").lastChild.previousSibling.innerHTML)
+}
+
+function clicked5()
+{
+   var c="";
+    for (var index = 0; index <document.getElementById("UL").childNodes.length; index++) {
+         c =c+ document.getElementById("UL").childNodes[index].innerHTML+"<br>";
+   }
+   document.write(c)
+}
+
+function clicked6()
+{
+    document.write(document.getElementById("UL").firstChild.parentNode.nodeName);
+}
+
+    </script>
+    
+</body>
+</html>

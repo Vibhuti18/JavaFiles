@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<table>
+		<tr>
+			<td><label>Employee Id</label></td>
+			<td><input type="text" id="empid" /></td>
+		</tr>
+		<tr>
+			<td><label>Employee Name</label></td>
+			<td><input type="text" id="name" /></td>
+		</tr>
+		<tr>
+			<td><label>Employee company</label></td>
+			<td ><input type="text" id="company" /></td>
+		</tr>
+	</table>
+
+
+
+	<script>
+	
+	document.getElementById("empid").onblur=getEmployeeDetails;
+	
+	function getEmployeeDetails()
+	{
+		alert("hi")
+		xmlhttp=new XMLHttpRequest();
+		
+	var url="requestProcessor.jsp";
+	var empid = document.getElementById('empid').value;
+	xmlhttp.open("POST",url,true);
+	xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+	
+	xmlhttp.onreadystatechange=handleResponse;
+	
+	var data="empid="+empid;
+	xmlhttp.send(data);
+	}
+	
+	
+	function handleResponse()
+	{
+		if(xmlhttp.readyState==4 && xmlhttp.status==200)
+		{
+		var response = xmlhttp.responseText;
+		var s=response.split(",");
+		document.getElementById("name").value = s[0];
+		document.getElementById("company").value = s[1];
+		}
+	}
+	
+	</script>
+
+</body>
+</html>

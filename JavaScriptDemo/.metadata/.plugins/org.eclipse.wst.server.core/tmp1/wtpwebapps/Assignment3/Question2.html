@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<table border="1" id="table1">
+		<tr>
+			<th>Firstname</th>
+			<th>Lastname</th>
+			<th>Age</th>
+		</tr>
+		<tr>
+			<td>Jill</td>
+			<td>Smith</td>
+			<td>50</td>
+		</tr>
+		<tr>
+			<td>Eve</td>
+			<td>Jackson</td>
+			<td>94</td>
+		</tr>
+		<tr>
+			<td>Mary</td>
+			<td>Hughes</td>
+			<td>60</td>
+		</tr>
+		<tr>
+			<td>Anna</td>
+			<td>Piere</td>
+			<td>34</td>
+		</tr>
+	</table>
+
+	<script>
+		var x = document.getElementsByTagName("table")
+		var rows = document.getElementsByTagName("tr")
+
+		for (i = 1; i < rows.length; i++) {
+
+			if (i % 2 == 0) {
+				rows[i].style.backgroundColor = "#80aaff"
+			} else {
+				rows[i].style.backgroundColor = "#b3e6ff"
+			}
+		}
+
+		rows[rows.length - 1].style.fontStyle = "italic";
+
+		for (i = 1; i < rows.length; i++) {
+			rows[i].firstElementChild.style.textDecoration = "underline"
+
+		}
+
+		b1 = document.getElementsByTagName("td")
+
+		for (i = 1; i < rows.length; i++) {
+			var t1 = rows[i].cells;
+
+			for (var i1 = 0; i1 < t1.length; i1++) {
+				if (i1 % 2 == 0)
+					t1[i1].style.backgroundColor = "#80afff"
+
+				else
+					t1[i1].style.backgroundColor = "#80a15f"
+
+			}
+		}
+	</script>
+</body>
+</html>

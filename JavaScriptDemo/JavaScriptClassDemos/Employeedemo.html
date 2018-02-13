@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        var obj={
+
+            empId:100,
+            name:"James Bond",
+            batch:"ELTPNOV"
+        }
+
+        var name;
+        console.log(obj);
+        var i=0;
+        for (var key in obj) {
+            if (obj.hasOwnProperty(key)) {
+                i++;             
+            }
+        }
+        alert(Object.keys(obj).length);   
+
+        
+        </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    
+    var person1 = {firstname:"John",city:"Pune",age:20}
+   // var person2 = {firstname:"Kate",city:"goa",age:25}
+
+    Object.keys(person1).forEach(function(key)
+    {
+        var newKey = person1[key];
+        person1[newKey] = key;
+        delete person1[key];
+    });
+
+    console.log(person1);
+    
+    </script>
+</body>
+</html>

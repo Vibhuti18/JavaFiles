@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+    
+    #displaymap{
+        height: 400px;
+        width: 400px;
+        border: 3px solid black
+    }
+    
+    </style>
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false" type="text/javascript"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="info"></div>
+    <div id="errordiv"></div>
+    <div id="displaymap"></div>
+
+
+    <script>
+    $(function(){
+        if(navigator.geolocation)
+        {
+            $("#info").html("fetching details.........");
+            var options={
+                enableHighAccuracy:false,
+                maximumAge:0,
+                timeout:60000
+            }
+        }
+
+        navigator.geolocation.getCurrentPosition(onSuccess,onError,options)
+
+        function onSuccess(position)
+        {
+            $("#info").append("latitude: "+position.coords.latitude)
+            $("#info").append(" Longitude: "+position.coords.longitude)
+            initializeMap(position.coords.latitude,position.coords.longitude)
+        }
+
+        function onError()
+        {
+            $("#errordiv").html("Error occured")
+        }
+    })
+    
+    function initializeMap(lat,lon)
+        {
+            var latlang=new google.maps.LatLng(lat,lon);
+            var myOptions={
+                zoom:16,
+                center:latlang,
+                mapTypeId:google.maps.MapTypeId.ROADMAP
+            };
+            var map=new google.maps.Map(document.getElementById("displaymap"),myOptions)
+        }
+    
+    </script>
+
+</body>
+</html>

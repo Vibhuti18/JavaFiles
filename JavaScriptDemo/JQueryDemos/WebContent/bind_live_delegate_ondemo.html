@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script>
+    
+$(function(){
+    
+
+// $("div").click(function(){
+
+
+//     alert("div clikd")
+// })
+
+
+
+//bind
+
+//$("div").bind("click",clicked);
+
+//live
+
+//$("div").live("click",clicked);
+
+
+//delegate
+//$("body").delegate("div","click",clicked);
+
+
+//on
+//$("body").one("click","div",clicked)
+
+ $("#btnadd").click(function(){
+    $("body").append("<div>This is a dynamically added div</div>")
+})
+
+$("#btnadd").trigger("click");
+});
+
+function clicked()
+{
+    alert("Div clicked")
+    //$("body").off("click")
+}
+
+    </script>
+
+</head>
+<body>
+  <div>This is a statically added div</div>  
+  <button id="btnadd">add div</button>
+</body>
+</html>

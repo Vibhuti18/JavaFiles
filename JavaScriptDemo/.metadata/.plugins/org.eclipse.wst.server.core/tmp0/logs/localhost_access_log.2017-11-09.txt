@@ -1,0 +1,11 @@
+127.0.0.1 - - [09/Nov/2017:12:26:45 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [09/Nov/2017:12:26:46 +0530] "GET /Project2/Test2.html HTTP/1.1" 200 1230
+0:0:0:0:0:0:0:1 - - [09/Nov/2017:12:26:47 +0530] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [09/Nov/2017:12:26:47 +0530] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [09/Nov/2017:12:26:55 +0530] "GET /Project2/Test2.html HTTP/1.1" 200 1230
+0:0:0:0:0:0:0:1 - - [09/Nov/2017:12:26:55 +0530] "GET /favicon.ico HTTP/1.1" 404 973
+0:0:0:0:0:0:0:1 - - [09/Nov/2017:12:27:00 +0530] "POST /Project2/requestProcessor.jsp HTTP/1.1" 500 2611
+0:0:0:0:0:0:0:1 - - [09/Nov/2017:12:27:52 +0530] "GET /Project2/Test2.html HTTP/1.1" 200 1241
+0:0:0:0:0:0:0:1 - - [09/Nov/2017:12:27:57 +0530] "POST /Project2/requestProcessor.jsp HTTP/1.1" 500 2611
+0:0:0:0:0:0:0:1 - - [09/Nov/2017:12:28:24 +0530] "GET /Project2/Test2.html HTTP/1.1" 200 1240
+0:0:0:0:0:0:0:1 - - [09/Nov/2017:12:28:29 +0530] "POST /Project2/requestProcessor.jsp HTTP/1.1" 200 18

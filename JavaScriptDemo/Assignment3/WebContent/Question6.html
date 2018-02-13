@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Assignment 3.6</title>
+</head>
+<style>
+    .thumb {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .main {
+        width: 50%;
+        height:50%;
+        float: bottom;
+        display: block;
+        margin: auto;
+        position: relative
+    }
+
+    .mImg{
+        border:1px solid #ddd;
+        border-radius: 4px;
+        width: 700px;
+        height: 500px;
+    }
+</style>
+
+<body>
+    <div id="Timg" align="center" style="display:block;height:50%;position:relative;">
+        <img src="SomeImage.jpg" class="thumb">
+        <img src="2.jpg" class="thumb">
+        <img src="3.jpg" class="thumb">
+        <img src="4.jpg" class="thumb">
+        <img src="5.jpg" class="thumb">
+        <img src="6.jpg" class="thumb">
+    </div>
+    <div id="mainImg" class="main">
+        
+    </div>
+    <button style="display:none" id="toggleTrans" onclick="magic()">Toggle Transparency</button>
+</body>
+<script>
+    var imgs = document.getElementById("Timg")
+    imgs.onclick = function (event) {
+       // console.log("in here")
+        var elem = event.target;
+        if (elem.hasAttribute("src")) {
+            //alert(event.target);
+            var id = elem.getAttribute("src");
+            //console.log(id)
+            document.getElementById("mainImg").innerHTML="<img src='"+id+"' class='mImg'>"
+           // console.log(document.getElementsByClassName("mImg").length)
+           document.getElementById("toggleTrans").style.display="block"
+        }
+
+    };
+
+    var f=0;
+    function magic() {
+        if(f==0){
+            f=1;
+            document.getElementsByClassName("mImg")[0].style.opacity="0.5"
+        }
+        else{
+            f=0;
+            document.getElementsByClassName("mImg")[0].style.opacity = "1"
+        }
+    }
+</script>
+
+</html>

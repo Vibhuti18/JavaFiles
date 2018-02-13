@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Employee.java&apos; to &apos;SerializableDEmo/src/com.psl.serializable&apos;&#x0D;&#x0A;- Original project: &apos;CollectionDemo&apos;&#x0D;&#x0A;- Destination element: &apos;SerializableDEmo/src/com.psl.serializable&apos;&#x0D;&#x0A;- Original element: &apos;com.psl.collectiondemo.Employee.java&apos;" description="Copy compilation unit" destination="=SerializableDEmo/src&lt;com.psl.serializable" element1="/src&lt;com.psl.collectiondemo{Employee.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1508148736165" units="1" version="1.0"/>
+</session>

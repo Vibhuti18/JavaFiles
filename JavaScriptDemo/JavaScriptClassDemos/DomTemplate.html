@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<p id="opener">first Paragraph</p>
+<p>Second Paragraph</p>
+<p class='closer'>third paragraph</p>
+<p class='closer'>fourth Paragraph</p>
+
+<div class='closer'>This is div with class closer</div>
+<div>This is simple div</div>
+<button onclick="change()">change</button>
+
+
+    <script>
+    
+    function change()
+    {
+        var id1=document.getElementById("opener");
+        id1.style.color='red';
+
+        var divid = document.getElementsByTagName("div");
+        for (var index = 0; index < divid.length; index++) {
+            divid[index].style.border='2px solid red';
+            
+        }
+
+        var cls= document.getElementsByClassName('closer')
+
+        for (var index = 0; index < cls.length; index++) {
+        cls[index].style.backgroundColor="yellow"
+        cls[index].style.fontSize="xx-large"
+        
+    }
+
+    }
+    </script>
+</body>
+</html>

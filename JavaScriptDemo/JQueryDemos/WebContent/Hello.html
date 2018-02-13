@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+
+</head>
+<body>
+  <div id="div1">
+<img src="Hydrangeas.jpg" id="1" height="200px" width="200px" />
+<img src="Jellyfish.jpg" id="2" height="200px" width="200px" />
+<img src="Koala.jpg" id="3" height="200px" width="200px"/>
+<img src="Lighthouse.jpg" id="4" height="200px" width="200px"/>
+<img src="Penguins.jpg" id="5" height="200px" width="200px"/>
+<img src="Tulips.jpg"  id="6" height="200px" width="200px"/>    
+
+</div> 
+
+<div>
+
+
+   
+
+</div id="div2">
+
+
+<script>
+
+var x = document.getElementsByTagName("img")
+var count=0;
+
+    if(count==4)
+{
+    alert("cannot add more than 3 images")
+}
+    x[i].addEventListener("click",function(){
+
+        var t=document.createElement("img");
+
+        t.setAttribute("src",this.getAttribute("src"))
+
+        t.setAttribute("width","200px")
+        t.setAttribute("height","200px")
+        
+
+        newd=document.getElementById("div2").appendChild(t);
+      
+
+count++;
+
+    },true)      
+        
+
+        
+        
+</script>
+</body>
+</html>

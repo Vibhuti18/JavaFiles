@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script>
+		$(document).ready(function() {
+			//  $("#item3").css("border","5px solid blue")
+			//$(".a").css("backgroundColor", "blue")
+			//$("div:lt(2),p:lt(2)").css("border","5px solid blue")
+			//$("li:first,li:last").css("fontSize","46px")
+			//$("*[id*=ar]").css("backgroundColor","blue")
+			//$("ul+p").css("border","5px solid blue")
+			//$("div,p").css("border","5px solid blue")
+		//	$("*").css("border","5px solid blue")
+		$("ul").siblings().css("border","5px solid blue")
+			
+		})
+	</script>
+
+	<div id="div1">This is div1</div>
+
+	<div id="div2">This is div2</div>
+
+	<div id="div3" class="a">This is div3</div>
+
+	<div id="div4" class="a">This is div4</div>
+
+	<ul id="list1">
+
+		<li class="b">ONE</li>
+		<li class="b">TWO</li>
+		<li id="item3">THREE</li>
+		<li>FOUR</li>
+		<li>FIVE</li>
+
+	</ul>
+	<p id="para1">para1</p>
+	<p class="a">para2</p>
+	<p>para3</p>
+
+</body>
+</html>

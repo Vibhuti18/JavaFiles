@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet"
+	href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<style type="text/css">
+.li {
+	list-style-type: none;
+}
+
+.ui-menu {
+	width: 150px;
+}
+</style>
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+</head>
+<body>
+	<ul>
+		<li><div>Item1</div></li>
+		<li><div>Item2</div></li>
+		<li><div>Item3</div>
+	</ul>
+
+	<script>
+		$(function() {
+			$("ul").menu();
+		})
+	</script>
+</body>
+</html>

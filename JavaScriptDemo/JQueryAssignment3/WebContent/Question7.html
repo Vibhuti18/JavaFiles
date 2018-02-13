@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+</head>
+<body>
+	<table id="perdetails">
+		<tr>
+			<td><label>Firstname</label></td>
+			<td><input type="text" id="fname" /></td>
+		</tr>
+		<tr>
+			<td><label>Lastname</label></td>
+			<td><input type="text" id="lname" /></td>
+		</tr>
+		<tr>
+			<td><label>City</label></td>
+			<td><input type="text" id="city" /></td>
+		</tr>
+		<tr>
+			<td><label>ContactNo</label></td>
+			<td><input type="text" id="cno" /></td>
+		</tr>
+	</table>
+	<input type="submit" id="sub" value="GetPersonalDetails" />
+	<table id="pdetails">
+		<tr>
+			<td><label>ProjectId</label></td>
+			<td><input type="text" id="pid" /></td>
+		</tr>
+		<tr>
+			<td><label>ProjectLocation</label></td>
+			<td><input type="text" id="ploc" /></td>
+		</tr>
+	</table>
+	<input type="submit" id="sub1" value="GetProjectDetails" />
+
+
+	<script>
+		
+		$(function() {
+			$("#sub").click(function() {
+				var url = "PersonalDetails.jsp";
+				$.ajax({
+					type : "POST",
+					url : url,
+					success : function(response) {
+						var x = response.getElementsByTagName("data");
+						var s = x[0].getElementsByTagName("firstname")[0].childNodes[0].nodeValue
+						var s1 = x[0].getElementsByTagName("lastname")[0].childNodes[0].nodeValue
+						var s2 = x[0].getElementsByTagName("city")[0].childNodes[0].nodeValue
+						var s3 = x[0].getElementsByTagName("contactno")[0].childNodes[0].nodeValue
+						$("#fname").val(s);
+						$("#lname").val(s1);
+						$("#city").val(s2);
+						$("#cno").val(s3);
+
+					}
+				})
+
+			});
+			
+			$("#sub1").click(function() {
+				var url = "ProjectDetails.jsp";
+				$.ajax({
+					dataType:"JSON",
+					type : "POST",
+					url : url,
+					success : function(response) {
+						$("#pid").val(response.pid);
+						$("#ploc").val(response.ploc);
+
+					}
+				})
+
+			});
+		});
+		</script>
+</body>
+
+
+
+</html>

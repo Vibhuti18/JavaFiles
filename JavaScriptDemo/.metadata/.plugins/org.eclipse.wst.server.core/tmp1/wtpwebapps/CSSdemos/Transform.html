@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+
+#d1
+{
+height:300px;
+width: 300px;
+background-color: pink;
+border:2px solid  red;
+
+}
+
+#d1:hover
+{
+
+background-color: green;
+transform:scale(0.0) rotate(360deg);
+transition:transform 8s ease;
+}
+
+
+#d2
+{
+height:300px;
+width: 300px;
+background-color: blue;
+border:2px solid  red;
+transition-property:all;
+transition-duration:6s;
+transition-timing-function:ease-in-out;
+transition-delay:2s
+}
+
+#d2:hover
+{
+background-color: green;
+height:600px;
+width: 600px;
+}
+
+</style>
+</head>
+<body>
+<img id="d1" src="got.jpg"/>
+<div id="d2"></div>
+
+</body>
+</html>

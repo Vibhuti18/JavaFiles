@@ -1,0 +1,25 @@
+package com.psl.controller;
+
+import junit.framework.TestCase;
+import static org.mockito.Mockito.*;
+
+public class TestAddLocation extends Mockito {
+	
+	AddLocationController addLocationController;
+	
+
+	protected void setUp() throws Exception {
+		super.setUp();
+		addLocationController= new AddLocationController();
+	}
+
+	protected void tearDown() throws Exception {
+		super.tearDown();
+		addLocationController=null;
+	}
+
+	public void testDoPostHttpServletRequestHttpServletResponse() {
+		//fail("Not yet implemented");
+	}
+
+}

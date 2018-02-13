@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   
+
+    <script>
+    
+    $(function(){
+
+        $("#animate1").click(function(){
+
+$("#theDiv").animate({border:'2px solid black',backgroundColor:'red'},2000);
+
+        })
+
+
+        $("#animateall").click(function(){
+
+            $("#theDiv").animate({border:'2px solid black',backgroundColor:'red',width:'500px',height:'700px',fontSize:'40pt'},2000);
+            
+        })
+    })
+
+
+</script>
+</head>
+<body>
+
+        <div id="theDiv" style="border:2px solid black;background:rgb(62, 29, 182);width:300px;height:300px">the div!</div>
+        <button id="animate1">Animate 1!</button>
+        <button id="animateall">Animate all!</button>  
+</body>
+</html>

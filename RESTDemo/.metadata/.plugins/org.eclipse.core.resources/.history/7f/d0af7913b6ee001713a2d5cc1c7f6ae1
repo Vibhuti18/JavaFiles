@@ -1,0 +1,13 @@
+package com.tienda.bean;
+
+import java.util.Date;
+import java.util.Set;
+
+public class Orders {
+	
+	int orderNumber;
+	Date orderDate;
+	Users orderedBy;
+	Set<Product> cart;
+
+}
